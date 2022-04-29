@@ -11,7 +11,8 @@ The game should be similar to minecraft, VRchat, and portal.
 https://docs.google.com/document/d/1m2i6KH-zeJWOiGAi1s8ag75vBEV5PwgY_gJ-s2IIXEE/edit?usp=sharing
 
  # MMO Starter Kit
-https://docs.google.com/document/d/1fgsgYAL3sLFo_1vcxp-3Gs5uzbxnU5_Se9qFcsPfeas/edit?usp=sharing
+Documentation: https://docs.google.com/document/d/1fgsgYAL3sLFo_1vcxp-3Gs5uzbxnU5_Se9qFcsPfeas/edit?usp=sharing
+Download Files: https://drive.google.com/file/d/1bTzngSrrYWtJqUHr0f5nBaASkkhuazTM/view?usp=sharing
 
  # UE Sandbox Tool Kit
 https://github.com/bw2012/UnrealSandboxToolkit
