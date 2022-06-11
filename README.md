@@ -1,13 +1,16 @@
 # Creation Game
-The game should be similar to minecraft, VRchat, and portal.
+Creation game focused around interactive story creation using assets in worlds.
+
+
+### Design and Front-end
+1. [Design]([https://www.figma.com/file/P39zDQNgkqnCd1yzceMJe9/Tribal-Network-%7C-Hi-Fi-7%2F23-(Copy)-(Copy)?node-id=0%3A1](https://www.figma.com/file/kvfo8Eon1JOlSO8Kui7l9e/Creation-Game%3A-Live-2.0?node-id=56%3A2))
+2. [Figma Web Design](https://www.figma.com/file/rqP6rKi7vfVszgm0OH1sEm/MVP%3A-Hi-Fi?node-id=0%3A1)
+3. [Design Example tasks (Conception to Prototype)](https://drive.google.com/drive/folders/10I2b-pMYGlP3bN_0dKU7BXKt7knwrp_4?usp=sharing)
+4. [Design Resources](https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true)
+
 
 # Setup Local
 [Install Visual studio 2017 or 2019 (with Windows SDK) and a source-built version of UE4. If you do not have the source-built engine, follow the official instructions here: https://www.unrealengine.com/ue4-on-github ]
-
-# Designers
-[The design details can be found at this figma link: https://www.figma.com/file/kvfo8Eon1JOlSO8Kui7l9e/Creation-Game%3A-Live-2.0?node-id=56%3A2]
-Example tasks (Conception to Prototype): https://drive.google.com/drive/folders/10I2b-pMYGlP3bN_0dKU7BXKt7knwrp_4?usp=sharing
-Design Resources: https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true
 
 # Practices
 https://docs.google.com/document/d/1m2i6KH-zeJWOiGAi1s8ag75vBEV5PwgY_gJ-s2IIXEE/edit?usp=sharing
@@ -21,3 +24,75 @@ https://github.com/bw2012/UnrealSandboxToolkit
 
  # Opensource UE Repos
 https://github.com/insthync/awesome-ue4
+
+### Database
+1. [Notes]([https://docs.google.com/document/d/1D6ZB8L26JTNkClofHMqeTfbY3tI42xeGZxeq4k47wAM/edit?usp=sharing](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing))
+
+
+### Contributors ✨
+
+<table border='1px'>
+  <tr>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/66889079?v=4' alt='' width='100px'>
+        <p align='center'>Varun Bheda</p>
+      </a>
+    </td>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://github.com/jreid2454.png' alt='' width='100px'>
+        <p align='center'>Austyn Slavych</p>
+      </a>
+    </td>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/73906599?v=4' alt='' width='100px'>
+        <p align='center'>Kaia Guan</p>
+      </a>
+    </td>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/38656549?v=4' alt='' width='100px'>
+        <p align='center'>Daniel Philibin</p>
+      </a>
+    </td>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/15039674?v=4' alt='' width='100px'>
+        <p align='center'>Janine Kong</p>
+      </a>
+    </td>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/66407817?v=4' alt='' width='100px'>
+        <p align='center'>Member</p>
+      </a>
+    </td>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/84493509?v=4' alt='' width='100px'>
+        <p align='center'>Member</p>
+      </a>
+    </td>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/67351502?v=4' alt='' width='100px'>
+        <p align='center'>Member</p>
+      </a>
+    </td>
+  </tr>
+<!-- 2   -->
+  <tr>
+    <td>
+      <a href="Github link" target="_blank">
+        <img src='https://avatars.githubusercontent.com/u/43942535?v=4' alt='' width='100px'>
+        <p align='center'>Member</p>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+**NOTE** This README is still a work in progress. If there is anything that's missing, doesn't make sense, or doesn't work, let us know! Or better yet, make a pull request with updated information. We want to make this README as robust as possible.
