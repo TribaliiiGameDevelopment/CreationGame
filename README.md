@@ -35,7 +35,7 @@ https://github.com/insthync/awesome-ue4
   <tr>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/66889079?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Varun Bheda</p>
       </a>
     </td>
