@@ -41,43 +41,43 @@ https://github.com/insthync/awesome-ue4
     </td>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://github.com/jreid2454.png' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Austyn Slavych</p>
       </a>
     </td>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/73906599?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Kaia Guan</p>
       </a>
     </td>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/38656549?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Daniel Philibin</p>
       </a>
     </td>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/15039674?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Janine Kong</p>
       </a>
     </td>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/66407817?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Member</p>
       </a>
     </td>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/84493509?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Member</p>
       </a>
     </td>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/67351502?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Member</p>
       </a>
     </td>
@@ -86,7 +86,7 @@ https://github.com/insthync/awesome-ue4
   <tr>
     <td>
       <a href="Github link" target="_blank">
-        <img src='https://avatars.githubusercontent.com/u/43942535?v=4' alt='' width='100px'>
+        <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Member</p>
       </a>
     </td>
