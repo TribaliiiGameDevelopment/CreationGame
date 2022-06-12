@@ -1,5 +1,17 @@
-# Creation Game
+<div align='center'>
+  <a href='Link to view' target='_blank'>
+  <img src='https://avatars.githubusercontent.com/u/63391280?v=4' alt='Tribal Network' width='150px' />
+  <h3>TRIBAL NETWORK</h3>
+  </a>
+</div>
+
+
+### Creation Game
 Creation game focused around interactive story creation using assets in game worlds.
+
+**Enter hours weekly**
+Through the Specialist Portal
+
 
 
 # `Research and Design`
