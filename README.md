@@ -17,7 +17,7 @@ Creation game focused around interactive story creation using assets in game wor
 5. [Opensource UE Repos](https://github.com/insthync/awesome-ue4)
 
 # `Back end and DB`
-1. [Notes](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
+1. [Notes and Links](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
 
 
 ### Contributors ✨
