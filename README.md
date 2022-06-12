@@ -9,6 +9,8 @@
 # Creation Game
 Creation game focused around interactive story creation using assets in game worlds.
 
+**Feature branch projects will last 4-12 weeks**
+
 **Enter hours weekly**
 Through the Specialist Portal
 
