@@ -2,13 +2,13 @@
 Creation game focused around interactive story creation using assets in game worlds.
 
 
-### Research and Design
+# `Research and Design`
 1. [Prototype](https://www.figma.com/file/kvfo8Eon1JOlSO8Kui7l9e/Creation-Game%3A-Live-2.0?node-id=56%3A2)
 2. [Notes and Links](https://drive.google.com/drive/folders/1tYQoi6_NQvnKW7vSjiKrByHtQhpVTcuY?usp=sharing)
 3. [Design Example tasks (Conception to Prototype)](https://drive.google.com/drive/folders/10I2b-pMYGlP3bN_0dKU7BXKt7knwrp_4?usp=sharing)
 4. [Design Resources](https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true)
 
-# 'Front end'
+# `Front end`
 # Setup Local
 [Install Visual studio 2017 or 2019 (with Windows SDK) and a source-built version of UE4. If you do not have the source-built engine, follow the official instructions here](https://www.unrealengine.com/ue4-on-github).<br />
 
@@ -25,7 +25,7 @@ https://github.com/bw2012/UnrealSandboxToolkit
  # Opensource UE Repos
 https://github.com/insthync/awesome-ue4
 
-### Back end and DB
+# `Back end and DB`
 [Notes](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
 
 
