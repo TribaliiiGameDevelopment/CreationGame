@@ -4,7 +4,7 @@ Creation game focused around interactive story creation using assets in game wor
 
 ### Research and Design
 1. [Prototype](https://www.figma.com/file/kvfo8Eon1JOlSO8Kui7l9e/Creation-Game%3A-Live-2.0?node-id=56%3A2)
-2. [Notes and Links](https://drive.google.com/drive/folders/1tYQoi6_NQvnKW7vSjiKrByHtQhpVTcuY?usp=sharing))
+2. [Notes and Links](https://drive.google.com/drive/folders/1tYQoi6_NQvnKW7vSjiKrByHtQhpVTcuY?usp=sharing)
 3. [Design Example tasks (Conception to Prototype)](https://drive.google.com/drive/folders/10I2b-pMYGlP3bN_0dKU7BXKt7knwrp_4?usp=sharing)
 4. [Design Resources](https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true)
 
