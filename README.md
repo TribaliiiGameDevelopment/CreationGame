@@ -24,11 +24,7 @@ Through the Specialist Portal
 
 ### `Front end`
 
-1. Install Visual studio 2017 or 2019 (with Windows SDK) and a source-built version of UE4. If you do not have the source-built engine, follow the official instructions here: [Setup Local](https://www.unrealengine.com/ue4-on-github).<br />
-2. [Practices](https://docs.google.com/document/d/1m2i6KH-zeJWOiGAi1s8ag75vBEV5PwgY_gJ-s2IIXEE/edit?usp=sharing)
-3. MMO Starter Kit: [Documentation](https://docs.google.com/document/d/1fgsgYAL3sLFo_1vcxp-3Gs5uzbxnU5_Se9qFcsPfeas/edit?usp=sharing) [Download Files](https://drive.google.com/file/d/1bTzngSrrYWtJqUHr0f5nBaASkkhuazTM/view?usp=sharing)
-4. [UE Sandbox Tool Kit](https://github.com/bw2012/UnrealSandboxToolkit)
-5. [Opensource UE Repos](https://github.com/insthync/awesome-ue4)
+1. [Godot](https://godotengine.org/)
 
 ### `Back end and DB`
 1. [Notes and Links](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
