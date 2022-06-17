@@ -24,7 +24,7 @@ Through the Specialist Portal
 
 ### `Front end`
 
-1. [Download Godot Engine](https://drive.google.com/file/d/1viJK55Lrh-IJ1Qj5-6BogpyM8rg94HRU/view?usp=sharing)
+1. [Download Godot Engine 3.4](https://drive.google.com/file/d/1viJK55Lrh-IJ1Qj5-6BogpyM8rg94HRU/view?usp=sharing)
 2. [Godot Documentation](https://docs.godotengine.org/en/latest/)
 
 ### `Back end and DB`
