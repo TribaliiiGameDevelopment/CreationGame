@@ -128,11 +128,12 @@ margin_top = -214.431
 margin_right = 174.154
 margin_bottom = -167.431
 theme = SubResource( 5 )
-custom_colors/font_color = Color( 0.521569, 0.521569, 0.521569, 1 )
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 6 )
 custom_styles/normal = SubResource( 7 )
 placeholder_text = "Email"
-placeholder_alpha = 1.0
+placeholder_alpha = 0.3
 
 [node name="NameInput" type="LineEdit" parent="RegisterBackground"]
 margin_left = -179.856
@@ -140,11 +141,12 @@ margin_top = -140.613
 margin_right = 175.144
 margin_bottom = -93.6134
 theme = SubResource( 5 )
-custom_colors/font_color = Color( 0.521569, 0.521569, 0.521569, 1 )
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 6 )
 custom_styles/normal = SubResource( 7 )
 placeholder_text = "Display Name"
-placeholder_alpha = 1.0
+placeholder_alpha = 0.3
 
 [node name="PasswordInput" type="LineEdit" parent="RegisterBackground"]
 margin_left = -179.863
@@ -152,12 +154,13 @@ margin_top = -65.798
 margin_right = 175.137
 margin_bottom = -18.798
 theme = SubResource( 5 )
-custom_colors/font_color = Color( 0.521569, 0.521569, 0.521569, 1 )
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 6 )
 custom_styles/normal = SubResource( 7 )
 secret = true
 placeholder_text = "Create Password"
-placeholder_alpha = 1.0
+placeholder_alpha = 0.3
 
 [node name="ConfirmInput" type="LineEdit" parent="RegisterBackground"]
 margin_left = -179.871
@@ -165,12 +168,13 @@ margin_top = 10.0149
 margin_right = 175.129
 margin_bottom = 57.0149
 theme = SubResource( 5 )
-custom_colors/font_color = Color( 0.521569, 0.521569, 0.521569, 1 )
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 6 )
 custom_styles/normal = SubResource( 7 )
 secret = true
 placeholder_text = "Confirm Password"
-placeholder_alpha = 1.0
+placeholder_alpha = 0.3
 
 [node name="DoBInput" type="LineEdit" parent="RegisterBackground"]
 margin_left = -179.878
@@ -178,11 +182,12 @@ margin_top = 85.8279
 margin_right = 175.122
 margin_bottom = 132.828
 theme = SubResource( 5 )
-custom_colors/font_color = Color( 0.521569, 0.521569, 0.521569, 1 )
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 6 )
 custom_styles/normal = SubResource( 7 )
-placeholder_text = "Date of Birth"
-placeholder_alpha = 1.0
+placeholder_text = "Date of Birth (MM/DD/YYYY)"
+placeholder_alpha = 0.3
 
 [node name="ToCCheckBox" type="CheckBox" parent="RegisterBackground"]
 margin_left = -184.999
@@ -198,6 +203,7 @@ margin_left = -179.0
 margin_top = 222.491
 margin_right = 176.0
 margin_bottom = 269.491
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 9 )
 custom_styles/disabled = SubResource( 11 )
 custom_styles/normal = SubResource( 10 )
