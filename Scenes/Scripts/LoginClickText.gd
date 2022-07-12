@@ -1,7 +1,7 @@
 extends Button
 
 #insert login scene path here
-var loginScene = "res://Scenes/testScene.tscn"
+var loginScene = "res://Scenes/Login Scene.tscn"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
