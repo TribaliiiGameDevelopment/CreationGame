@@ -10,14 +10,16 @@ config_version=4
 
 [application]
 
-config/name="Register Page"
+config/name="Dragon Tribe"
 run/main_scene="res://Scenes/mainRegisterPage.tscn"
 config/icon="res://Assets/icon.png"
 
 [display]
 
-window/size/width=1500
-window/size/height=1000
+window/size/width=1600
+window/size/height=900
+window/size/fullscreen=true
+window/stretch/aspect="keep"
 
 [physics]
 

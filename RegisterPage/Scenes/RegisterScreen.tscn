@@ -166,9 +166,9 @@ font_data = ExtResource( 1 )
 [node name="RegisterScreen" type="Node2D"]
 
 [node name="RegisterBackground" type="Sprite" parent="."]
-position = Vector2( 222, 409 )
+position = Vector2( 240.688, 408.998 )
 rotation = -9.79751e-05
-scale = Vector2( 1.00262, 1.00247 )
+scale = Vector2( 1.08642, 1.00247 )
 texture = SubResource( 1 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="RegisterBackground"]
