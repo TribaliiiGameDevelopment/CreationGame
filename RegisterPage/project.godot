@@ -11,13 +11,13 @@ config_version=4
 [application]
 
 config/name="Register Page"
-run/main_scene="res://Register Screen/RegisterScreen.tscn"
+run/main_scene="res://Scenes/mainRegisterPage.tscn"
 config/icon="res://Assets/icon.png"
 
 [display]
 
-window/size/width=446
-window/size/height=818
+window/size/width=1500
+window/size/height=1000
 
 [physics]
 
