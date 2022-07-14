@@ -5,6 +5,7 @@ var loginScene = "res://Scenes/Login Scene.tscn"
 onready var emailVerficationBox = get_parent().get_parent()
 onready var usernameInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("NameInput")
 onready var passwordInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("PasswordInput")
+onready var emailInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("EmailInput")
 
 var code = "123456"
 var json_path = "res://JSON/Accounts/Accounts.json"
@@ -18,7 +19,7 @@ func _process(delta):
 	if text == "123456":
 		text = ""
 		emailVerficationBox.visible = false
-		AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text}
+		AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text}
 		
 		var jsonFile = File.new()
 		jsonFile.open(json_path, File.WRITE)

@@ -1,11 +1,18 @@
 {
   "Test1": {
-    "Password": 1234
+    "Email": "test1@gmail.com",
+    "Password": "1234"
   },
   "Test2": {
-    "Password": 1234
+    "Email": "test2@gmail.com",
+    "Password": "1234"
   },
   "hello": {
+    "Email": "test3@gmail.com",
     "Password": "world"
+  },
+  "test4": {
+    "Email": "test4@gmail.com",
+    "Password": "1234"
   }
 }
