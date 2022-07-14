@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Assets/tempBackground.jpg" type="Texture" id=1]
 [ext_resource path="res://Fonts/ARIAL.TTF" type="DynamicFontData" id=2]
@@ -51,6 +51,9 @@ font_data = ExtResource( 2 )
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=13]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=14]
 font_data = ExtResource( 2 )
 
 [node name="Login Scene" type="Control"]
@@ -205,3 +208,9 @@ margin_right = 911.0
 margin_bottom = 194.0
 custom_fonts/title_font = SubResource( 13 )
 window_title = "Accounts.json Not Found"
+
+[node name="WrongPassword" type="WindowDialog" parent="."]
+margin_right = 48.0
+margin_bottom = 40.0
+custom_fonts/title_font = SubResource( 14 )
+window_title = "Wrong Password"
