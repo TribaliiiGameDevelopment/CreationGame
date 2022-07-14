@@ -4,5 +4,8 @@
   },
   "Test2": {
     "Password": 1234
+  },
+  "hello": {
+    "Password": "world"
   }
 }
