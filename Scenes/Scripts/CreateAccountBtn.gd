@@ -1,5 +1,6 @@
 extends Button
 
+onready var loginClick = get_parent().get_node("LoginClickText")
 onready var emailInput = get_parent().get_node("EmailInput")
 onready var nameInput = get_parent().get_node("NameInput")
 onready var passwordInput = get_parent().get_node("PasswordInput")
@@ -8,12 +9,14 @@ onready var dobInput = get_parent().get_node("DoBInput")
 onready var tocInput = get_parent().get_node("ToCCheckBox")
 onready var registerBox = get_parent()
 onready var emailVerifBox = get_parent().get_parent().get_node("EmailVerfication")
+onready var parentAccountCreateBox = get_parent().get_parent().get_node("CreateParentAccountScene")
+
+var time = OS.get_date()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
-
-
+	pass
+	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
 	#if all fields are filled out, enable create account button
@@ -29,4 +32,15 @@ func _process(_delta):
 
 func _pressed():
 	registerBox.modulate = Color(217/255, 217/255, 217/255, (255 * .6) / 255)
-	emailVerifBox.visible = true
+	emailInput.editable = false
+	nameInput.editable = false
+	passwordInput.editable = false
+	confirmInput.editable = false
+	dobInput.editable = false
+	tocInput.disabled = true
+	loginClick.disabled = true
+	
+	if time['year'] - int(dobInput.text.substr(6)) < 14:
+		parentAccountCreateBox.visible = true
+	else:
+		emailVerifBox.visible = true
