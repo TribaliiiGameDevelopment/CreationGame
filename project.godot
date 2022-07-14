@@ -23,6 +23,7 @@ AccountParser="*res://Scenes/Scripts/Login and Register/AccountParser.gd"
 window/size/width=1600
 window/size/height=900
 window/size/fullscreen=true
+window/dpi/allow_hidpi=true
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
