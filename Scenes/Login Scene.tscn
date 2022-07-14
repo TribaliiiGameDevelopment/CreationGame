@@ -1,9 +1,10 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://Assets/tempBackground.jpg" type="Texture" id=1]
 [ext_resource path="res://Fonts/ARIAL.TTF" type="DynamicFontData" id=2]
 [ext_resource path="res://Fonts/ARIALBD 1.TTF" type="DynamicFontData" id=3]
 [ext_resource path="res://Assets/RegisterBackground.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/Scripts/Login and Register/LoginPress.gd" type="Script" id=5]
 
 [sub_resource type="DynamicFont" id=2]
 size = 28
@@ -44,6 +45,12 @@ font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=7]
 size = 24
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=12]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=13]
 font_data = ExtResource( 2 )
 
 [node name="Login Scene" type="Control"]
@@ -176,3 +183,25 @@ margin_right = 912.0
 margin_bottom = 524.0
 custom_fonts/font = SubResource( 7 )
 text = "Login"
+script = ExtResource( 5 )
+
+[node name="AccountNotFound" type="WindowDialog" parent="."]
+margin_left = 713.0
+margin_top = 135.0
+margin_right = 898.0
+margin_bottom = 175.0
+custom_colors/title_color = Color( 0, 0, 0, 1 )
+custom_fonts/title_font = SubResource( 12 )
+popup_exclusive = true
+window_title = "Account Not Found"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="JsonNotFound" type="WindowDialog" parent="."]
+margin_left = 703.0
+margin_top = 154.0
+margin_right = 911.0
+margin_bottom = 194.0
+custom_fonts/title_font = SubResource( 13 )
+window_title = "Accounts.json Not Found"

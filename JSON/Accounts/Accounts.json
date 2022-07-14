@@ -1,7 +1,8 @@
-[
-	"Accounts":
-		{
-			"Username":"Test",
-			"Password":"1234"
-		}
-]
+{
+  "Test1": {
+    "Password": 1234
+  },
+  "Test2": {
+    "Password": 1234
+  }
+}

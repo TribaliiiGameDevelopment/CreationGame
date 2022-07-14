@@ -14,6 +14,10 @@ config/name="Dragon Tribe"
 run/main_scene="res://Scenes/mainRegisterPage.tscn"
 config/icon="res://Assets/icon.png"
 
+[autoload]
+
+AccountParser="*res://Scenes/Scripts/Login and Register/AccountParser.gd"
+
 [display]
 
 window/size/width=1600
