@@ -9,9 +9,6 @@ onready var passwordInput = get_parent().get_parent().get_node("RegisterBackgrou
 onready var confirmInput = get_parent().get_parent().get_node("RegisterBackground").get_node("ConfirmInput")
 onready var dobInput = get_parent().get_parent().get_node("RegisterBackground").get_node("DoBInput")
 onready var tocCheckBox = get_parent().get_parent().get_node("RegisterBackground").get_node("ToCCheckBox")
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
 
 
 # Called when the node enters the scene tree for the first time.

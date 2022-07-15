@@ -38,5 +38,6 @@ func _process(delta):
 		jsonFile.store_string(JSON.print(AccountParser.account_data, "  ", true))
 		jsonFile.close()
 		
+		print("Registration Successful!")
 		get_tree().change_scene(loginScene)
 		
