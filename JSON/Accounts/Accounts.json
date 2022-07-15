@@ -1,38 +1,3 @@
 {
-  "Hello": {
-    "Email": "hello@gmail.com",
-    "Password": "World"
-  },
-  "Parent1": {
-    "Email": "parent1@gmail.com",
-    "Password": "1234"
-  },
-  "Test1": {
-    "Email": "test1@gmail.com",
-    "Password": "1234"
-  },
-  "Test2": {
-    "Email": "test2@gmail.com",
-    "Password": "1234"
-  },
-  "Test5": {
-    "Email": "test5@gmail.com",
-    "Password": "1234"
-  },
-  "Test7": {
-    "Email": "test7@gmail.com",
-    "Password": "1234"
-  },
-  "Test8": {
-    "Email": "test8@gmail.com",
-    "Password": "1234"
-  },
-  "hello": {
-    "Email": "test3@gmail.com",
-    "Password": "world"
-  },
-  "test4": {
-    "Email": "test4@gmail.com",
-    "Password": "1234"
-  }
+  
 }
