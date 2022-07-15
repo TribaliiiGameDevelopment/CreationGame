@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://Scenes/Scripts/Login and Register/RegisterBtn.gd" type="Script" id=1]
 [ext_resource path="res://Assets/RegisterBackground.png" type="Texture" id=2]
@@ -7,6 +7,16 @@
 [ext_resource path="res://Fonts/Roboto-Light.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://Fonts/Roboto-Medium.ttf" type="DynamicFontData" id=6]
 [ext_resource path="res://Fonts/Roboto-Regular.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="DynamicFont" id=17]
+size = 38
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=18]
+size = 38
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
 
 [sub_resource type="DynamicFont" id=1]
 size = 31
@@ -91,6 +101,9 @@ font_data = ExtResource( 6 )
 size = 24
 font_data = ExtResource( 4 )
 
+[sub_resource type="StyleBoxFlat" id=19]
+bg_color = Color( 0.176471, 0.2, 0.227451, 1 )
+
 [sub_resource type="DynamicFont" id=10]
 font_data = ExtResource( 4 )
 
@@ -107,29 +120,43 @@ position = Vector2( 240.688, 408.998 )
 scale = Vector2( 1.086, 1.002 )
 texture = ExtResource( 2 )
 
+[node name="Title Label" type="RichTextLabel" parent="LoginBox"]
+margin_left = -100.287
+margin_top = -375.99
+margin_right = 119.713
+margin_bottom = -329.99
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/bold_font = SubResource( 17 )
+custom_fonts/normal_font = SubResource( 18 )
+bbcode_enabled = true
+bbcode_text = "[b]Dragon Tribe[/b]"
+tab_size = 1
+text = "Dragon Tribe"
+scroll_active = false
+
 [node name="Sign In Label" type="RichTextLabel" parent="LoginBox"]
 margin_left = -178.839
-margin_top = -343.114
+margin_top = -291.218
 margin_right = 120.161
-margin_bottom = -303.114
+margin_bottom = -251.218
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 1 )
 text = "Sign In"
 
 [node name="Username Label" type="RichTextLabel" parent="LoginBox"]
 margin_left = -180.846
-margin_top = -243.511
-margin_right = -7.84596
-margin_bottom = -215.511
+margin_top = -191.615
+margin_right = -7.84598
+margin_bottom = -163.615
 custom_colors/default_color = Color( 0.345098, 0.345098, 0.345098, 1 )
 custom_fonts/normal_font = SubResource( 2 )
 text = "Username"
 
 [node name="Username Field" type="LineEdit" parent="LoginBox"]
 margin_left = -181.0
-margin_top = -219.076
+margin_top = -167.18
 margin_right = 179.0
-margin_bottom = -169.076
+margin_bottom = -117.18
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -141,18 +168,18 @@ placeholder_alpha = 0.3
 
 [node name="Password Label" type="RichTextLabel" parent="LoginBox"]
 margin_left = -180.846
-margin_top = -149.755
+margin_top = -97.8585
 margin_right = -39.846
-margin_bottom = -127.755
+margin_bottom = -75.8585
 custom_colors/default_color = Color( 0.345098, 0.345098, 0.345098, 1 )
 custom_fonts/normal_font = SubResource( 2 )
 text = "Password"
 
 [node name="Password Field" type="LineEdit" parent="LoginBox"]
 margin_left = -180.846
-margin_top = -126.076
+margin_top = -74.1797
 margin_right = 179.154
-margin_bottom = -76.0758
+margin_bottom = -24.1797
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 4 )
@@ -164,9 +191,9 @@ placeholder_alpha = 0.3
 
 [node name="Forgot Password" type="Button" parent="LoginBox"]
 margin_left = 62.5753
-margin_top = -27.8276
+margin_top = 24.0685
 margin_right = 166.575
-margin_bottom = -7.82762
+margin_bottom = 45.0685
 focus_mode = 0
 custom_colors/font_color_focus = Color( 0.568627, 0.568627, 0.568627, 1 )
 custom_colors/font_color = Color( 0.568627, 0.568627, 0.568627, 1 )
@@ -179,9 +206,9 @@ flat = true
 
 [node name="Remember Me Checkbox" type="CheckBox" parent="LoginBox"]
 margin_left = -180.846
-margin_top = -27.828
+margin_top = 24.068
 margin_right = -71.846
-margin_bottom = -3.82805
+margin_bottom = 48.068
 focus_mode = 0
 custom_colors/font_color = Color( 0.568627, 0.568627, 0.568627, 1 )
 custom_colors/font_color_hover = Color( 0.407843, 0.407843, 0.407843, 1 )
@@ -192,9 +219,9 @@ text = "Remember Me"
 
 [node name="Register Label" type="RichTextLabel" parent="LoginBox"]
 margin_left = -124.636
-margin_top = 113.326
+margin_top = 165.223
 margin_right = 132.364
-margin_bottom = 153.326
+margin_bottom = 205.223
 custom_colors/default_color = Color( 0.568627, 0.568627, 0.568627, 1 )
 custom_fonts/normal_font = SubResource( 7 )
 text = "Don't have an account?"
@@ -216,10 +243,11 @@ script = ExtResource( 1 )
 
 [node name="Login Button" type="Button" parent="LoginBox"]
 margin_left = -179.002
-margin_top = 20.6062
+margin_top = 72.5023
 margin_right = 180.998
-margin_bottom = 70.6062
+margin_bottom = 122.502
 custom_fonts/font = SubResource( 9 )
+custom_styles/normal = SubResource( 19 )
 text = "Login"
 script = ExtResource( 3 )
 

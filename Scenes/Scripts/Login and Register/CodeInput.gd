@@ -1,7 +1,7 @@
 extends LineEdit
 
 
-var loginScene = "res://Scenes/Login Scene.tscn"
+var loginScene = "res://Scenes/Login Page Scenes/Login Scene.tscn"
 onready var emailVerficationBox = get_parent().get_parent()
 onready var usernameInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("NameInput")
 onready var passwordInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("PasswordInput")

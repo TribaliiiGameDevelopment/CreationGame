@@ -23,6 +23,7 @@ func _on_button_pressed():
 		else:
 			#If the password is correct, the user will log into the game -Jihad
 			print("Logged in!")
+			get_tree().change_scene("res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn")
 	else:
 		#If a username not present in Accounts.json is entered, the AccountNotFound node will become visible notifying the user that the account was not found and "Not Found" will be printed tot he debug log -Jihad
 		get_node("../AccountNotFound").popup_centered()
