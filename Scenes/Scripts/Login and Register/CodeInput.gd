@@ -54,4 +54,5 @@ func _process(delta):
 		
 		#change to character creation scene after successful registration
 		print("Registration Successful!")
+		MinorInfoVariables.reset()
 		get_tree().change_scene(charCreationScene)

@@ -25,7 +25,11 @@ func _on_button_pressed():
 			print("Logged in!")
 			#If account is guardian login for account creation, the user will redirect to minors creation scene - Trung
 			if MinorInfoVariables.isGuardianAccount == true:
+				if AccountParser.account_data[username].get("Guardian"):
+					print("Minors cannot be guardians")
+					get_tree().change_scene("res://Scenes/Register Page Scenes/ParentRegisterPage.tscn")
 				MinorInfoVariables.setGuardian(username, AccountParser.account_data[username].Email)
+				MinorInfoVariables.reset()
 				get_tree().change_scene("res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn")
 			get_tree().change_scene("res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn")
 	else:
