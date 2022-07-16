@@ -17,6 +17,7 @@ config/icon="res://Assets/icon.png"
 [autoload]
 
 AccountParser="*res://Scenes/Scripts/Login and Register/AccountParser.gd"
+MinorInfoVariables="*res://Scenes/Scripts/Login and Register/MinorInfoVariables.gd"
 
 [display]
 

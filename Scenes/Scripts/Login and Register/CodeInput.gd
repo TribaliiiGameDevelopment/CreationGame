@@ -31,7 +31,14 @@ func _process(delta):
 		code5 = ""
 		code6 = ""
 		emailVerficationBox.visible = false
-		AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text}
+		
+	
+		if get_parent().get_parent().get_parent().name == "ParentRegisterScreen":
+			var minorInfo = MinorInfoVariables.getMinor()
+			AccountParser.account_data[minorInfo[0]] = {"Password": minorInfo[1], "Email": minorInfo[2]}
+			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text, "Minors": [minorInfo[0]]}
+		else:
+			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text}
 		
 		var jsonFile = File.new()
 		jsonFile.open(json_path, File.WRITE)
