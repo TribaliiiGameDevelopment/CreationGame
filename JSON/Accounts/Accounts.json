@@ -1,17 +1,3 @@
 {
-  "Krazak": {
-    "Email": "tlam036@ucr.edu",
-    "Password": "TheFallen98"
-  },
-  "Krazak107": {
-    "Email": "trunglam107@gmail.com",
-    "Password": "TheFallen98"
-  },
-  "Parent1": {
-    "Email": "parent1@gmail.com",
-    "Minors": [
-      "Krazak107"
-    ],
-    "Password": "GalaxyEyes98"
-  }
+
 }
