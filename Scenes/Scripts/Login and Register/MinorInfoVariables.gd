@@ -20,12 +20,15 @@ func getMinor():
 	return [minorUsername, minorPassword, minorEmail]
 
 func updateGuardianAccount(guardianUsername):
-	AccountParser.account_data[guardianUsername].Minors.push_back(minorUsername)
-	AccountParser.account_data[minorUsername] = {"Password": minorPassword, "Email": minorEmail}
-	
-
-	var json_path = "res://JSON/Accounts/Accounts.json"
-	var jsonFile = File.new()
-	jsonFile.open(json_path, File.WRITE)
-	jsonFile.store_string(JSON.print(AccountParser.account_data, "  ", true))
-	jsonFile.close()
+	if AccountParser.account_data[guardianUsername].get("Minors") == null:
+		isGuardianAccount = false
+		get_tree().change_scene("res://Scenes/Register Page Scenes/ParentRegisterPage.tscn")
+	else:
+		AccountParser.account_data[guardianUsername].Minors.push_back(minorUsername)
+		AccountParser.account_data[minorUsername] = {"Password": minorPassword, "Email": minorEmail}
+		var json_path = "res://JSON/Accounts/Accounts.json"
+		var jsonFile = File.new()
+		jsonFile.open(json_path, File.WRITE)
+		jsonFile.store_string(JSON.print(AccountParser.account_data, "  ", true))
+		jsonFile.close()
+		isGuardianAccount = false

@@ -392,6 +392,11 @@ custom_fonts/normal_font = SubResource( 30 )
 text = "Invalid Email"
 script = ExtResource( 4 )
 
+[node name="UserExistPopUp" type="AcceptDialog" parent="RegisterBackground"]
+margin_right = 48.0
+margin_bottom = 40.0
+window_title = "Error"
+
 [node name="EmailVerfication" parent="." instance=ExtResource( 7 )]
 visible = false
 position = Vector2( 76, 277 )

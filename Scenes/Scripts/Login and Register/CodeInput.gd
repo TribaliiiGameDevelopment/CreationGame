@@ -8,10 +8,12 @@ onready var passwordInput = get_parent().get_parent().get_parent().get_node("Reg
 onready var emailInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("EmailInput")
 var code = "123456"
 var json_path = "res://JSON/Accounts/Accounts.json"
+
 var newUser
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -30,15 +32,8 @@ func _process(delta):
 		code4 = ""
 		code5 = ""
 		code6 = ""
-		emailVerficationBox.visible = false
 		
-	
-		if get_parent().get_parent().get_parent().name == "ParentRegisterScreen":
-			var minorInfo = MinorInfoVariables.getMinor()
-			AccountParser.account_data[minorInfo[0]] = {"Password": minorInfo[1], "Email": minorInfo[2]}
-			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text, "Minors": [minorInfo[0]]}
-		else:
-			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text}
+		AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text}
 		
 		var jsonFile = File.new()
 		jsonFile.open(json_path, File.WRITE)
@@ -47,4 +42,3 @@ func _process(delta):
 		
 		print("Registration Successful!")
 		get_tree().change_scene(loginScene)
-		

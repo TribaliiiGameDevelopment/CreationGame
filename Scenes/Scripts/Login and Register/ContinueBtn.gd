@@ -13,8 +13,4 @@ func _ready():
 
 #when login text is pressed on, change to login scene
 func _continue_pressed():
-	minorUsername = nameInput.text
-	minorPassword = passwordInput.text
-	minorEmail = emailInput.text
-	MinorInfoVariables.setMinor(minorUsername, minorPassword, minorEmail)
 	get_tree().change_scene(guardianPageScene)

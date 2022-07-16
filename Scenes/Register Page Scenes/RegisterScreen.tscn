@@ -399,6 +399,10 @@ custom_fonts/normal_font = SubResource( 29 )
 text = "Invalid Date of Birth"
 script = ExtResource( 10 )
 
+[node name="UserExistPopUp" type="AcceptDialog" parent="RegisterBackground"]
+margin_right = 48.0
+margin_bottom = 40.0
+
 [node name="EmailVerfication" parent="." instance=ExtResource( 7 )]
 visible = false
 position = Vector2( 76, 277 )

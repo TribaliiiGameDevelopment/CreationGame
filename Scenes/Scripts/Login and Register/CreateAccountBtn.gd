@@ -14,6 +14,7 @@ onready var passwordCriteriaBox = get_parent().get_parent().get_parent().get_nod
 onready var passwordMatchLabel = get_parent().get_node("PasswordMatchLabel")
 onready var emailValidateLabel = get_parent().get_node("EmailValidateLabel")
 onready var dobValidateLabel = get_parent().get_node("DoBValidateLabel")
+onready var userExistPopup = get_parent().get_node("UserExistPopUp")
 var time = OS.get_date()
 
 # Called when the node enters the scene tree for the first time.
@@ -38,16 +39,21 @@ func _process(_delta):
 		disabled = true
 
 func _pressed():
-	registerBox.modulate = Color(217/255, 217/255, 217/255, (255 * .6) / 255)
-	emailInput.editable = false
-	nameInput.editable = false
-	passwordInput.editable = false
-	confirmInput.editable = false
-	dobInput.editable = false
-	tocInput.disabled = true
-	loginClick.disabled = true
-	
-	if time['year'] - int(dobInput.text.substr(6)) < 14:
-		parentAccountCreateBox.visible = true
+	if AccountParser.account_data.has(nameInput.text):
+		userExistPopup.popup_centered()
+		userExistPopup.dialog_text = "Username already exist!"
+		
 	else:
-		emailVerifBox.visible = true
+		registerBox.modulate = Color(217/255, 217/255, 217/255, (255 * .6) / 255)
+		emailInput.editable = false
+		nameInput.editable = false
+		passwordInput.editable = false
+		confirmInput.editable = false
+		dobInput.editable = false
+		tocInput.disabled = true
+		loginClick.disabled = true
+		
+		if time['year'] - int(dobInput.text.substr(6)) < 14:
+			parentAccountCreateBox.visible = true
+		else:
+			emailVerifBox.visible = true
