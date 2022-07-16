@@ -13,7 +13,7 @@ func _on_button_pressed():
 	password = get_node("../Password Field").get_text()
 	
 	#Login info check -Jihad
-	if (AccountParser.account_data.has(username) and !AccountParser.account_data[username].get("Guardian")): #Checks if the entered username is present in Accounts.json -Jihad
+	if (AccountParser.account_data.has(username)): #Checks if the entered username is present in Accounts.json -Jihad
 		#If it's present, the debug log will output "Found" and will continue onto the password check. -Jihad
 		print("Found")
 		if (password != str(AccountParser.account_data[username].Password)): #Checks if the enetered password does not match the account password in Accounts.json -Jihad
@@ -23,6 +23,10 @@ func _on_button_pressed():
 		else:
 			#If the password is correct, the user will log into the game -Jihad
 			print("Logged in!")
+			#If account is guardian login for account creation, the user will redirect to minors creation scene - Trung
+			if MinorInfoVariables.isGuardianAccount == true:
+				MinorInfoVariables.setGuardian(username, AccountParser.account_data[username].Email)
+				get_tree().change_scene("res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn")
 			get_tree().change_scene("res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn")
 	else:
 		#If a username not present in Accounts.json is entered, the AccountNotFound node will become visible notifying the user that the account was not found and "Not Found" will be printed tot he debug log -Jihad

@@ -41,8 +41,8 @@ func _process(delta):
 		if get_parent().get_parent().get_parent().name == "ParentRegisterScreen":
 			var minorInfo = MinorInfoVariables.getMinor()
 			print("Registering for minor...")
-			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text, "Guardian": true} 
-			AccountParser.account_data[minorInfo[0]] = {"Password": minorInfo[1], "Email": emailInput.text}
+			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text} 
+			AccountParser.account_data[minorInfo[0]] = {"Password": minorInfo[1], "Email": emailInput.text, "Guardian": usernameInput.text}
 		else:
 			print("Registering for regular...")
 			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text}
