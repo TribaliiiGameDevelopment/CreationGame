@@ -9,7 +9,8 @@ onready var tocInput = get_parent().get_node("ToCCheckBox")
 onready var ageInput = get_parent().get_node("AgeCheckBox")
 onready var registerBox = get_parent()
 onready var emailVerifBox = get_parent().get_parent().get_node("EmailVerfication")
-
+onready var passwordCriteriaBox = get_parent().get_parent().get_parent().get_node("PasswordCriteriaPopUp")
+onready var passwordMatchLabel = get_parent().get_node("PasswordMatchLabel")
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
@@ -22,7 +23,9 @@ func _process(_delta):
 		passwordInput.text != "" and
 		confirmInput.text != "" and
 		tocInput.pressed == true and
-		ageInput.pressed == true):
+		ageInput.pressed == true and
+		passwordCriteriaBox.criteriaMet and
+		passwordMatchLabel.visible == false):
 		disabled = false
 	else:
 		disabled = true

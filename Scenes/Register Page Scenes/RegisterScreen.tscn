@@ -1,13 +1,15 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://Fonts/Roboto-Light.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Fonts/Roboto-Medium.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Fonts/Roboto-Regular.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Scenes/Scripts/Login and Register/EmailInput.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/Scripts/Login and Register/EmailValidateLabel.gd" type="Script" id=4]
 [ext_resource path="res://Scenes/Scripts/Login and Register/LoginClickText.gd" type="Script" id=5]
 [ext_resource path="res://Scenes/Scripts/Login and Register/CreateAccountBtn.gd" type="Script" id=6]
 [ext_resource path="res://Scenes/Register Page Scenes/EmailVerfication.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/Register Page Scenes/CreateParentAccountScene.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Scenes/Scripts/Login and Register/PasswordMatchLabel.gd" type="Script" id=9]
+[ext_resource path="res://Scenes/Scripts/Login and Register/DoBValidateLabel.gd" type="Script" id=10]
 
 [sub_resource type="StreamTexture" id=1]
 flags = 4
@@ -126,7 +128,7 @@ size = 12
 use_filter = true
 font_data = ExtResource( 3 )
 
-[sub_resource type="Image" id=28]
+[sub_resource type="Image" id=30]
 data = {
 "data": PoolByteArray( 255, 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 179, 0, 0, 0, 245, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 245, 0, 0, 0, 179, 0, 0, 0, 42, 255, 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 249, 0, 0, 0, 108, 0, 0, 0, 16, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 16, 0, 0, 0, 108, 0, 0, 0, 249, 0, 0, 0, 42, 0, 0, 0, 179, 0, 0, 0, 108, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 108, 0, 0, 0, 179, 0, 0, 0, 245, 0, 0, 0, 16, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 16, 0, 0, 0, 245, 0, 0, 0, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 255, 0, 0, 0, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 255, 0, 0, 0, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 255, 0, 0, 0, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 255, 0, 0, 0, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 255, 0, 0, 0, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 255, 0, 0, 0, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 255, 0, 0, 0, 245, 0, 0, 0, 16, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 16, 0, 0, 0, 245, 0, 0, 0, 179, 0, 0, 0, 108, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 108, 0, 0, 0, 179, 0, 0, 0, 42, 0, 0, 0, 249, 0, 0, 0, 108, 0, 0, 0, 16, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 0, 0, 0, 16, 0, 0, 0, 108, 0, 0, 0, 249, 0, 0, 0, 42, 255, 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 179, 0, 0, 0, 245, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 255, 0, 0, 0, 245, 0, 0, 0, 179, 0, 0, 0, 42, 255, 0, 0, 0 ),
 "format": "RGBA8",
@@ -138,7 +140,7 @@ data = {
 [sub_resource type="ImageTexture" id=19]
 flags = 3
 flags = 3
-image = SubResource( 28 )
+image = SubResource( 30 )
 size = Vector2( 15, 15 )
 
 [sub_resource type="StyleBoxEmpty" id=21]
@@ -160,6 +162,11 @@ corner_radius_bottom_left = 2
 bg_color = Color( 0.176471, 0.2, 0.227451, 1 )
 
 [sub_resource type="DynamicFont" id=12]
+size = 12
+use_filter = true
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=29]
 size = 12
 use_filter = true
 font_data = ExtResource( 3 )
@@ -222,13 +229,12 @@ custom_styles/focus = SubResource( 23 )
 custom_styles/normal = SubResource( 7 )
 placeholder_text = "Email"
 placeholder_alpha = 0.3
-script = ExtResource( 4 )
 
 [node name="NameInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -179.856
-margin_top = -140.613
-margin_right = 180.144
-margin_bottom = -90.613
+margin_left = -179.857
+margin_top = -130.638
+margin_right = 180.143
+margin_bottom = -80.6377
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -239,10 +245,10 @@ placeholder_text = "Display Name"
 placeholder_alpha = 0.3
 
 [node name="PasswordInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -180.0
-margin_top = -66.0
-margin_right = 180.0
-margin_bottom = -16.0
+margin_left = -180.002
+margin_top = -46.0493
+margin_right = 179.998
+margin_bottom = 3.95074
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -254,10 +260,10 @@ placeholder_text = "Create Password"
 placeholder_alpha = 0.3
 
 [node name="ConfirmInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -179.871
-margin_top = 10.0149
-margin_right = 180.129
-margin_bottom = 60.0149
+margin_left = -179.874
+margin_top = 39.941
+margin_right = 180.126
+margin_bottom = 89.941
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -269,10 +275,10 @@ placeholder_text = "Confirm Password"
 placeholder_alpha = 0.3
 
 [node name="DoBInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -179.878
-margin_top = 85.8279
-margin_right = 180.122
-margin_bottom = 135.828
+margin_left = -179.882
+margin_top = 125.729
+margin_right = 180.118
+margin_bottom = 175.729
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -283,10 +289,10 @@ placeholder_text = "Date of Birth (MM/DD/YYYY)"
 placeholder_alpha = 0.3
 
 [node name="ToCCheckBox" type="CheckBox" parent="RegisterBackground"]
-margin_left = -185.0
-margin_top = 167.005
-margin_right = -161.0
-margin_bottom = 191.005
+margin_left = -185.003
+margin_top = 204.911
+margin_right = -161.003
+margin_bottom = 228.911
 custom_fonts/font = SubResource( 8 )
 custom_icons/unchecked = SubResource( 19 )
 custom_styles/hover = SubResource( 21 )
@@ -294,10 +300,10 @@ custom_styles/focus = SubResource( 22 )
 clip_text = true
 
 [node name="CreateAccountBtn" type="Button" parent="RegisterBackground"]
-margin_left = -179.002
-margin_top = 240.447
-margin_right = 180.998
-margin_bottom = 290.447
+margin_left = -179.005
+margin_top = 270.373
+margin_right = 180.995
+margin_bottom = 320.373
 custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 9 )
 custom_styles/disabled = SubResource( 11 )
@@ -307,13 +313,91 @@ text = "Create account"
 script = ExtResource( 6 )
 
 [node name="RichTextLabel3" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -160.001
-margin_top = 166.975
-margin_right = 174.999
-margin_bottom = 200.975
+margin_left = -160.004
+margin_top = 204.881
+margin_right = 174.996
+margin_bottom = 238.881
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 12 )
 text = "I have read and accept the Terms and Conditions and Privacy Policy."
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="RegisterBackground"]
+margin_left = -179.0
+margin_top = -236.0
+margin_right = -134.0
+margin_bottom = -214.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 3 )
+text = "Email"
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="RegisterBackground"]
+margin_left = -179.001
+margin_top = -152.025
+margin_right = -74.0009
+margin_bottom = -130.025
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 3 )
+text = "Display Name"
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="RegisterBackground"]
+margin_left = -179.002
+margin_top = -68.0493
+margin_right = -52.0018
+margin_bottom = -46.0493
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 3 )
+text = "Create Password"
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="RegisterBackground"]
+margin_left = -179.003
+margin_top = 17.9261
+margin_right = -46.0028
+margin_bottom = 39.9261
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 3 )
+text = "Confirm Password"
+
+[node name="RichTextLabel8" type="RichTextLabel" parent="RegisterBackground"]
+margin_left = -179.01
+margin_top = 103.714
+margin_right = -46.0105
+margin_bottom = 125.714
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 3 )
+text = "Date of Birth"
+
+[node name="PasswordMatchLabel" type="RichTextLabel" parent="RegisterBackground"]
+visible = false
+margin_left = -179.0
+margin_top = 92.0
+margin_right = -51.0
+margin_bottom = 110.0
+custom_colors/default_color = Color( 1, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 29 )
+text = "Password must match"
+script = ExtResource( 9 )
+
+[node name="EmailValidateLabel" type="RichTextLabel" parent="RegisterBackground"]
+visible = false
+margin_left = -179.0
+margin_top = -164.0
+margin_right = -104.0
+margin_bottom = -146.0
+custom_colors/default_color = Color( 1, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 29 )
+text = "Invalid Email"
+script = ExtResource( 4 )
+
+[node name="DoBValidateLabel" type="RichTextLabel" parent="RegisterBackground"]
+visible = false
+margin_left = -179.008
+margin_top = 175.793
+margin_right = -51.0076
+margin_bottom = 193.793
+custom_colors/default_color = Color( 1, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 29 )
+text = "Invalid Date of Birth"
+script = ExtResource( 10 )
 
 [node name="EmailVerfication" parent="." instance=ExtResource( 7 )]
 visible = false

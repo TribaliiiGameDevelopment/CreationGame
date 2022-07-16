@@ -10,7 +10,10 @@ onready var tocInput = get_parent().get_node("ToCCheckBox")
 onready var registerBox = get_parent()
 onready var emailVerifBox = get_parent().get_parent().get_node("EmailVerfication")
 onready var parentAccountCreateBox = get_parent().get_parent().get_node("CreateParentAccountScene")
-
+onready var passwordCriteriaBox = get_parent().get_parent().get_parent().get_node("PasswordCriteriaPopUp")
+onready var passwordMatchLabel = get_parent().get_node("PasswordMatchLabel")
+onready var emailValidateLabel = get_parent().get_node("EmailValidateLabel")
+onready var dobValidateLabel = get_parent().get_node("DoBValidateLabel")
 var time = OS.get_date()
 
 # Called when the node enters the scene tree for the first time.
@@ -25,7 +28,11 @@ func _process(_delta):
 		passwordInput.text != "" and
 		confirmInput.text != "" and
 		dobInput.text != "" and
-		tocInput.pressed == true):
+		tocInput.pressed == true and
+		passwordCriteriaBox.criteriaMet and
+		passwordMatchLabel.visible == false and
+		emailValidateLabel.visible == false and
+		dobValidateLabel.visible == false):
 		disabled = false
 	else:
 		disabled = true
