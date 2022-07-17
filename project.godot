@@ -18,7 +18,6 @@ config/icon="res://Assets/icon.png"
 
 AccountParser="*res://Scenes/Scripts/Login and Register/AccountParser.gd"
 MinorInfoVariables="*res://Scenes/Scripts/Login and Register/MinorInfoVariables.gd"
-EscapekeyTemp="*res://escapekeyTemp.gd"
 
 [display]
 
