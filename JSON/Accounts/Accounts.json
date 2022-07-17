@@ -1,21 +1,3 @@
 {
-  "Krazak": {
-    "Email": "trunglam107@gmail.com",
-    "Password": "Chaos107*"
-  },
-  "Krazak107": {
-    "Email": "trunglam107@gmail.com",
-    "Guardian": "Krazak",
-    "Password": "TheFallen98"
-  },
-  "Minor1": {
-    "Email": "trunglam107@gmail.com",
-    "Guardian": "Krazak",
-    "Password": "ScorgeBasaka98"
-  },
-  "Minor2": {
-    "Email": "trunglam107@gmail.com",
-    "Guardian": "Minor1",
-    "Password": "Jesus1998"
-  }
+  
 }
