@@ -47,6 +47,7 @@ func _process(delta):
 			print("Registering for regular...")
 			AccountParser.account_data[usernameInput.text] = {"Password": passwordInput.text, "Email": emailInput.text}
 		
+		#update json account files
 		var jsonFile = File.new()
 		jsonFile.open(json_path, File.WRITE)
 		jsonFile.store_string(JSON.print(AccountParser.account_data, "  ", true))

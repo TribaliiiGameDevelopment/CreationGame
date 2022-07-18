@@ -32,6 +32,7 @@ func _process(_delta):
 		disabled = true
 
 func _pressed():
+	#if account exists, else proceed to email verfication
 	if AccountParser.account_data.has(nameInput.text):
 		userExistPopup.popup_centered()
 		userExistPopup.dialog_text = "Username already exist!"

@@ -39,6 +39,7 @@ func _process(_delta):
 		disabled = true
 
 func _pressed():
+	#if account already exists, enable popup, else open a window accordingly
 	if AccountParser.account_data.has(nameInput.text):
 		userExistPopup.popup_centered()
 		userExistPopup.dialog_text = "Username already exist!"
@@ -53,6 +54,7 @@ func _pressed():
 		tocInput.disabled = true
 		loginClick.disabled = true
 		
+		#if a minor, open a guardian message, else proceed to email verification
 		if time['year'] - int(dobInput.text.substr(6)) < 14:
 			parentAccountCreateBox.visible = true
 		else:

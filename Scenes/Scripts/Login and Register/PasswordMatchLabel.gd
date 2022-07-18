@@ -6,7 +6,7 @@ func _ready():
 	pass # Replace with function body.
 
 
-
+#check user password input for password and confirm
 func _process(delta):
 	var passwordText = get_parent().get_node("PasswordInput")
 	var confirmText = get_parent().get_node("ConfirmInput")

@@ -7,6 +7,7 @@ var regexNumbers = RegEx.new()
 var criteriaMet
 
 # Called when the node enters the scene tree for the first time.
+#set up regex to correct password input
 func _ready():
 	visible = false
 	regexLowerCase.compile("[a-z]+")
@@ -15,11 +16,13 @@ func _ready():
 	criteriaMet = false
 
 func _process(delta):
+	#if input is clicked on, display password criteria
 	if createPasswordInput.has_focus() == true:
 		visible = true
 	else:
 		visible = false
-		
+	
+	#check password criteria
 	if createPasswordInput.text.length() >= 8:
 		get_node("PasswordCriteriaBox").get_node("CharLengthChk").modulate = Color(1, 1, 1)
 	else:

@@ -11,10 +11,12 @@ var minorEmail
 func _ready():
 	connect("pressed", self, "_continue_pressed")
 
-#when login text is pressed on, change to login scene
+#when continue button is pressed, change to guardian scene
 func _continue_pressed():
 	minorUsername = nameInput.text
 	minorPassword = passwordInput.text
 	minorEmail = emailInput.text
+	#save minor information
 	MinorInfoVariables.setMinor(minorUsername, minorPassword, minorEmail)
+	#change to guadian register scene
 	get_tree().change_scene(guardianPageScene)
