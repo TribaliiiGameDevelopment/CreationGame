@@ -26,6 +26,7 @@ Through the Specialist Portal
 
 1. [Download Godot Engine 3.4](https://drive.google.com/file/d/1viJK55Lrh-IJ1Qj5-6BogpyM8rg94HRU/view?usp=sharing)
 2. [Godot Documentation](https://docs.godotengine.org/en/latest/)
+3. [Mutombo Mascot Avatar/ with action Blueprints](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
 
 ### `Back end and DB`
 1. [Notes and Links](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
