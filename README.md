@@ -96,7 +96,7 @@ Through the Specialist Portal
    <td>
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Austyn Slavych</p>
+        <p align='center'>Jasmine Bailey</p>
       </a>
     </td>
     <td>
