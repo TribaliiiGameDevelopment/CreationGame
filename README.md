@@ -22,11 +22,11 @@ Through the Specialist Portal
 3. [Design Example tasks (Conception to Prototype)](https://drive.google.com/drive/folders/10I2b-pMYGlP3bN_0dKU7BXKt7knwrp_4?usp=sharing)
 4. [Design Resources](https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true)
 
-### `Front end`
+### `Front end and Testing`
 
-1. [Download Godot Engine 3.4](https://drive.google.com/file/d/1viJK55Lrh-IJ1Qj5-6BogpyM8rg94HRU/view?usp=sharing)
+1. [Download Godot Engine 4.0](https://downloads.tuxfamily.org/godotengine/4.0/alpha1/)
 2. [Godot Documentation](https://docs.godotengine.org/en/latest/)
-3. [Mutombo Mascot Avatar/ with action Blueprints](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
+3. [Mutombo Mascot Avatar/ with actions animations](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
 
 ### `Back end and DB`
 1. [Notes and Links](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
@@ -39,7 +39,7 @@ Through the Specialist Portal
     <td>
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Varun Bheda</p>
+        <p align='center'>Maryam Yusuf</p>
       </a>
     </td>
     <td>
@@ -75,13 +75,13 @@ Through the Specialist Portal
     <td>
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Member</p>
+        <p align='center'>Trung Lam</p>
       </a>
     </td>
     <td>
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Member</p>
+        <p align='center'>Jihad Beydoun</p>
       </a>
     </td>
   </tr>
@@ -90,7 +90,7 @@ Through the Specialist Portal
     <td>
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Member</p>
+        <p align='center'>Dylan Graham</p>
       </a>
     </td>
   </tr>
