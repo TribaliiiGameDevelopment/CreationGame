@@ -93,12 +93,10 @@ Through the Specialist Portal
         <p align='center'>Dylan Graham</p>
       </a>
     </td>
-  </tr>
-  <tr>
-    <td>
+   <td>
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Maryam Yusuf</p>
+        <p align='center'>Austyn Slavych</p>
       </a>
     </td>
     <td>
