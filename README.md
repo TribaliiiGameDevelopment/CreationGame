@@ -26,7 +26,7 @@ Through the Specialist Portal
 
 1. [Download Godot Engine 4.0](https://downloads.tuxfamily.org/godotengine/4.0/alpha1/)
 2. [Godot Documentation](https://docs.godotengine.org/en/latest/)
-3. [Mutombo Mascot Avatar/ with actions animations](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
+3. [Mutombo Mascot Avatar/ with action animations](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
 
 ### `Back end and DB`
 1. [Notes and Links](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
@@ -91,6 +91,12 @@ Through the Specialist Portal
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
         <p align='center'>Dylan Graham</p>
+      </a>
+    </td>
+  </tr>
+  <a href="Github link" target="_blank">
+        <img src='Github Avatar' alt='' width='100px'>
+        <p align='center'>Jasmine Bailey</p>
       </a>
     </td>
   </tr>
