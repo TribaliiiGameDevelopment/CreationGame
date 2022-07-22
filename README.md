@@ -94,12 +94,14 @@ Through the Specialist Portal
       </a>
     </td>
   </tr>
-  <a href="Github link" target="_blank">
+  <tr>
+    <td>
+      <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Jasmine Bailey</p>
+        <p align='center'>Maryam Yusuf</p>
       </a>
     </td>
-  </tr>
+    <td>
 </table>
 
 
