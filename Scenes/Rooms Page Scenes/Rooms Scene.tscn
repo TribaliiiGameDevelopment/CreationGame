@@ -1,0 +1,110 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Assets/tempBackground.jpg" type="Texture" id=2]
+[ext_resource path="res://Fonts/Roboto-Medium.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Styles/Rooms Menu Buttons Style.tres" type="StyleBox" id=5]
+[ext_resource path="res://Styles/My Rooms Button Style.tres" type="StyleBox" id=6]
+[ext_resource path="res://Styles/Rooms Menu Font.tres" type="DynamicFont" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 4 )
+
+[node name="Rooms Scene" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TempBackground" type="Sprite" parent="."]
+position = Vector2( 800, 450 )
+scale = Vector2( 1.33333, 1.5 )
+texture = ExtResource( 2 )
+
+[node name="Rooms Background" type="ColorRect" parent="."]
+margin_left = 20.0
+margin_top = 18.0
+margin_right = 1578.0
+margin_bottom = 874.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="Rooms Background"]
+margin_left = 4.0
+margin_top = 3.0
+margin_right = 1554.0
+margin_bottom = 852.0
+
+[node name="Rooms Box" type="ColorRect" parent="."]
+margin_left = 419.0
+margin_top = 19.0
+margin_right = 1577.0
+margin_bottom = 870.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="Rooms Box"]
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 1157.0
+margin_bottom = 853.0
+
+[node name="My Rooms Button" type="Button" parent="."]
+margin_left = 75.0
+margin_top = 41.0
+margin_right = 370.0
+margin_bottom = 118.0
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 6 )
+custom_styles/focus = ExtResource( 6 )
+custom_styles/normal = ExtResource( 6 )
+text = "My Rooms"
+
+[node name="New Room Button" type="Button" parent="."]
+margin_left = 1143.0
+margin_top = 41.0
+margin_right = 1551.0
+margin_bottom = 99.0
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 7 )
+custom_styles/hover = ExtResource( 5 )
+custom_styles/pressed = ExtResource( 5 )
+custom_styles/focus = ExtResource( 5 )
+custom_styles/normal = ExtResource( 5 )
+text = "New Room"
+
+[node name="Room Filter Button" type="Button" parent="."]
+margin_left = 75.0
+margin_top = 174.0
+margin_right = 370.0
+margin_bottom = 251.0
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = ExtResource( 5 )
+custom_styles/pressed = ExtResource( 5 )
+custom_styles/focus = ExtResource( 5 )
+custom_styles/normal = ExtResource( 5 )
+text = "Rooms Filter"
+
+[node name="Marketplace Button" type="Button" parent="."]
+margin_left = 75.0
+margin_top = 758.0
+margin_right = 370.0
+margin_bottom = 835.0
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = ExtResource( 5 )
+custom_styles/pressed = ExtResource( 5 )
+custom_styles/focus = ExtResource( 5 )
+custom_styles/normal = ExtResource( 5 )
+text = "Marketplace"
