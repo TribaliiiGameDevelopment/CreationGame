@@ -1,8 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Assets/RegisterBackground.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Register Page/RegisterBackground.png" type="Texture" id=1]
 [ext_resource path="res://Assets/Placeholder Pictures/pexels-pixabay-163036.jpg" type="Texture" id=2]
 [ext_resource path="res://Fonts/Roboto-Regular.ttf" type="DynamicFontData" id=3]
+
 
 [sub_resource type="DynamicFont" id=1]
 size = 50

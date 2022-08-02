@@ -12,7 +12,7 @@ config_version=4
 
 config/name="Dragon Tribe"
 run/main_scene="res://Scenes/Login Page Scenes/Login Scene.tscn"
-config/icon="res://Assets/icon.png"
+config/icon="res://Assets/Placeholder Pictures/icon.png"
 
 [autoload]
 

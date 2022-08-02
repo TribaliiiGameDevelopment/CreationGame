@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Assets/tempBackground.jpg" type="Texture" id=1]
+[ext_resource path="res://Assets/Register Page/tempBackground.jpg" type="Texture" id=1]
 [ext_resource path="res://Scenes/Login Page Scenes/Login Box.tscn" type="PackedScene" id=2]
 
 [node name="Login Scene" type="Control"]
