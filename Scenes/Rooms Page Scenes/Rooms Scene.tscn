@@ -6,7 +6,6 @@
 [ext_resource path="res://Styles/My Rooms Button Style.tres" type="StyleBox" id=6]
 [ext_resource path="res://Styles/Rooms Menu Font.tres" type="DynamicFont" id=7]
 
-
 [sub_resource type="DynamicFont" id=1]
 size = 32
 font_data = ExtResource( 4 )
