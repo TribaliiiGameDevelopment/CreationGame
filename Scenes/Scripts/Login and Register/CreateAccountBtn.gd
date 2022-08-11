@@ -1,5 +1,6 @@
 extends Button
 
+#retrieve dependent nodes
 onready var loginClick = get_parent().get_node("LoginClickText")
 onready var emailInput = get_parent().get_node("EmailInput")
 onready var nameInput = get_parent().get_node("NameInput")
@@ -18,6 +19,7 @@ onready var userExistPopup = get_parent().get_node("UserExistPopUp")
 var time = OS.get_date()
 
 # Called when the node enters the scene tree for the first time.
+# reset minor variables to empty
 func _ready():
 	MinorInfoVariables.reset()
 	

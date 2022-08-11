@@ -8,6 +8,7 @@ onready var videoPage = get_node("/root/main-settings-page/TempBackground/MainSe
 
 
 # Called when the node enters the scene tree for the first time.
+# by default, general page is active
 func _ready():
 	generalPage.visible = true
 	controlPage.visible = false

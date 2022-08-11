@@ -1,5 +1,6 @@
 extends Button
 
+# retrieve dependent nodes
 onready var registerBox = get_parent().get_parent().get_node("RegisterBackground")
 onready var createParentAccountBox = get_parent()
 onready var loginClick = get_parent().get_parent().get_node("RegisterBackground").get_node("LoginClickText")
@@ -15,6 +16,8 @@ onready var tocCheckBox = get_parent().get_parent().get_node("RegisterBackground
 func _ready():
 	pass # Replace with function body.
 
+# if return button is pressed, hide the create parrent account notification.
+# and redisplay the main register menu
 func _pressed():
 	createParentAccountBox.visible = false
 	registerBox.modulate = Color(1, 1, 1)

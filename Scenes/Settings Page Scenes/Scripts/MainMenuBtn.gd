@@ -1,11 +1,6 @@
 extends Button
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -15,6 +10,6 @@ func _ready():
 #func _process(delta):
 #	pass
 
-
+# when back to main menu button is pressed, send back to the main menu scene
 func _on_MainMenuBtn_pressed():
 	print(" back to main menu button pressed")

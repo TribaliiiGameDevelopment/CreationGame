@@ -1,6 +1,9 @@
 extends Node2D
 
+# retrieve necessary nodes
 onready var createPasswordInput = get_parent().get_node("RegisterScreen").get_node("RegisterBackground").get_node("PasswordInput")
+
+# set up new regex for password input
 var regexLowerCase = RegEx.new()
 var regexUpperCase = RegEx.new()
 var regexNumbers = RegEx.new()
@@ -23,6 +26,7 @@ func _process(delta):
 		visible = false
 	
 	#check password criteria
+	# if certain criteria is met, change the color of the check box
 	if createPasswordInput.text.length() >= 8:
 		get_node("PasswordCriteriaBox").get_node("CharLengthChk").modulate = Color(1, 1, 1)
 	else:

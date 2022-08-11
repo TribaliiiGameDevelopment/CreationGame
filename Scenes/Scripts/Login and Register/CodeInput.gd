@@ -1,14 +1,17 @@
 extends LineEdit
 
-
+#retrieve next scene after registering
 var charCreationScene = "res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn"
+
+#retrieve dependent nodes
 onready var emailVerficationBox = get_parent().get_parent()
 onready var usernameInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("NameInput")
 onready var passwordInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("PasswordInput")
 onready var emailInput = get_parent().get_parent().get_parent().get_node("RegisterBackground").get_node("EmailInput")
+
+# set up hard coded 6 digit code (need to be randomized) and access temporary database
 var code = "123456"
 var json_path = "res://JSON/Accounts/Accounts.json"
-
 var newUser
 
 # Called when the node enters the scene tree for the first time.
@@ -17,7 +20,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	#fetch the code from each input
+	#fetch the code from each input from user
 	var code1 = get_parent().get_node("Code1Input")
 	var code2 = get_parent().get_node("Code1Input2")
 	var code3 = get_parent().get_node("Code1Input3")

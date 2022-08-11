@@ -1,12 +1,16 @@
 extends Node2D
 
+# retrieve necessary node
 onready var createPasswordInput = get_parent().get_node("ParentRegisterScreen").get_node("RegisterBackground").get_node("PasswordInput")
+
+#set up regex for password
 var regexLowerCase = RegEx.new()
 var regexUpperCase = RegEx.new()
 var regexNumbers = RegEx.new()
 var criteriaMet
 
 # Called when the node enters the scene tree for the first time.
+# initialize regexes 
 func _ready():
 	visible = false
 	regexLowerCase.compile("[a-z]+")
@@ -15,11 +19,13 @@ func _ready():
 	criteriaMet = false
 
 func _process(delta):
+	# if input is clicked no, display the criteria menu
 	if createPasswordInput.has_focus() == true:
 		visible = true
 	else:
 		visible = false
-		
+	
+	# check the password input and update color when criterias are met
 	if createPasswordInput.text.length() >= 8:
 		get_node("PasswordCriteriaBox").get_node("CharLengthChk").modulate = Color(1, 1, 1)
 	else:

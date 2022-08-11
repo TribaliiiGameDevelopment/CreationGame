@@ -7,6 +7,7 @@ extends OptionButton
 
 
 # Called when the node enters the scene tree for the first time.
+# default choices
 func _ready():
 	add_item('Item Type')
 	add_item('Sword')

@@ -1,5 +1,6 @@
 extends Button
 
+#retrieve dependent nodes
 onready var generalPage = get_node("/root/main-settings-page/TempBackground/MainSettingPage/General-page-box")
 onready var controlPage = get_node("/root/main-settings-page/TempBackground/MainSettingPage/Controls-page-box")
 onready var audioPage = get_node("/root/main-settings-page/TempBackground/MainSettingPage/Audio-page-box")
@@ -14,7 +15,7 @@ func _ready():
 #func _process(delta):
 #	pass
 
-# when button is pressed
+# when general button is pressed, set all other pages visibility to false
 func _on_GeneralBtn_pressed():
 	generalPage.visible = true
 	controlPage.visible = false

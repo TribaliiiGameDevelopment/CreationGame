@@ -1,5 +1,6 @@
 extends Button
 
+#retrieve dependent nodes
 onready var profilePage = get_node("/root/main-settings-page/TempBackground/MainSettingPage/General-page-box/Profile-page-box")
 onready var accountPage = get_node("/root/main-settings-page/TempBackground/MainSettingPage/General-page-box/Account-page-box")
 onready var tutorialPage = get_node("/root/main-settings-page/TempBackground/MainSettingPage/General-page-box/Tutorials-page-box")
@@ -13,7 +14,7 @@ func _ready():
 #func _process(delta):
 #	pass
 
-
+# when profile button is pressed, set all other pages to false
 func _on_profileBtn_pressed():
 	profilePage.visible = true
 	accountPage.visible = false

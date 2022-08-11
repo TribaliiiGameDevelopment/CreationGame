@@ -1,5 +1,6 @@
 extends Button
 
+#retrieve dependent nodes
 onready var loginClick = get_parent().get_node("LoginClickText")
 onready var emailInput = get_parent().get_node("EmailInput")
 onready var nameInput = get_parent().get_node("NameInput")
@@ -12,6 +13,7 @@ onready var emailVerifBox = get_parent().get_parent().get_node("EmailVerfication
 onready var passwordCriteriaBox = get_parent().get_parent().get_parent().get_node("PasswordCriteriaPopUp")
 onready var passwordMatchLabel = get_parent().get_node("PasswordMatchLabel")
 onready var userExistPopup = get_parent().get_node("UserExistPopUp")
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass

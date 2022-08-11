@@ -11,6 +11,8 @@ enum state {GENERAL_PRESSED, CONTROL_PRESSED, AUDIO_PRESSED, VIDEO_PRESSED}
 var curr_state
 
 # Called when the node enters the scene tree for the first time.
+#by default, general button is first active
+#set current state to be general button
 func _ready():
 	generalBtn.pressed = true
 	controlBtn.pressed = false
@@ -20,7 +22,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-# if a button is pressed, unpress all other buttons
+# if a button is pressed, unpress all other buttons, and set current state to the button being pressed
 func _process(_delta):
 	if(generalBtn.pressed and curr_state != state.GENERAL_PRESSED):
 		curr_state = state.GENERAL_PRESSED

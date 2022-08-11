@@ -8,8 +8,12 @@ func _ready():
 
 #check user password input for password and confirm
 func _process(delta):
+	#fetch values from text fields
 	var passwordText = get_parent().get_node("PasswordInput")
 	var confirmText = get_parent().get_node("ConfirmInput")
+	
+	# if text field is empty, ignore, 
+	# else display warning based on the equality of the password and confirm password text
 	if confirmText.text == "":
 		pass
 	else:

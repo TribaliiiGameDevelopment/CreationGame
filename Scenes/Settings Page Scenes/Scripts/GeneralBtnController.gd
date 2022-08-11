@@ -10,6 +10,7 @@ enum state {PROFILE_PRESSED, ACCOUNT_PRESSED, TUTORIAL_PRESSED}
 var curr_state
 
 # Called when the node enters the scene tree for the first time.
+#by default, profile section if active
 func _ready():
 	profileBtn.pressed = true
 	accountBtn.pressed = false
@@ -18,7 +19,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-# if a button is pressed, unpress all other buttons
+# if a button is pressed, unpress all other buttons and set current state to that button
 func _process(_delta):
 	if(profileBtn.pressed and curr_state != state.PROFILE_PRESSED):
 		curr_state = state.PROFILE_PRESSED

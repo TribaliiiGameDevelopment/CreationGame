@@ -1,6 +1,6 @@
 extends Button
 
-
+#retrieve dependent nodes
 onready var itemTypeDropDown = get_node('/root/InventoryMenu/InventoryBackground/InventoryList/InventoryListSearchBar/ItemTypeDropDown/')
 onready var itemColorDropDown = get_node('/root/InventoryMenu/InventoryBackground/InventoryList/InventoryListSearchBar/ItemColorDropDown/')
 onready var itemSizeDropDown = get_node('/root/InventoryMenu/InventoryBackground/InventoryList/InventoryListSearchBar/ItemSizeDropDown/')
@@ -16,10 +16,15 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+# function that resets inventory list to be all visible
 func resetList():
 	for items in inventoryList.get_children():
 		items.visible = true
 
+# when reset button is pressed, reset all drop downs to their default,
+# search text to be empty and item description menu to be false,
+# and reset the list to show all items
 func _on_ResetButton_pressed():
 	itemTypeDropDown.select(0)
 	itemColorDropDown.select(0)
