@@ -1,0 +1,652 @@
+[gd_scene load_steps=40 format=2]
+
+[ext_resource path="res://Fonts/Roboto-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/ItemTypeDropDown.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/ItemColorDropDown.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/ItemSizeDropDown.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/ItemSortDropDown.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/ItemActionDropDown.gd" type="Script" id=6]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/Item1.gd" type="Script" id=7]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/ResetButton.gd" type="Script" id=8]
+[ext_resource path="res://Scenes/Inventory Menu Scenes/Scripts/ItemSearchBar.gd" type="Script" id=9]
+
+[sub_resource type="Theme" id=1]
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.819608, 0.819608, 0.819608, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=22]
+bg_color = Color( 0.886275, 0.886275, 0.886275, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.937255, 0.937255, 0.937255, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="DynamicFont" id=4]
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="StyleBoxEmpty" id=7]
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.819608, 0.819608, 0.819608, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="DynamicFont" id=8]
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=9]
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=15]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.819608, 0.819608, 0.819608, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=16]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.819608, 0.819608, 0.819608, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
+[sub_resource type="StyleBoxEmpty" id=14]
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.819608, 0.819608, 0.819608, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="DynamicFont" id=17]
+size = 20
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=19]
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=21]
+bg_color = Color( 0.207843, 0.207843, 0.207843, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxEmpty" id=20]
+
+[sub_resource type="StyleBoxFlat" id=18]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.819608, 0.819608, 0.819608, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=23]
+bg_color = Color( 0.886275, 0.886275, 0.886275, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="DynamicFont" id=24]
+size = 30
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=25]
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=26]
+size = 20
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=27]
+size = 20
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=29]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.823529, 0.823529, 0.823529, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=30]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.823529, 0.823529, 0.823529, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxEmpty" id=31]
+
+[sub_resource type="StyleBoxEmpty" id=32]
+
+[sub_resource type="StyleBoxFlat" id=28]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.823529, 0.823529, 0.823529, 1 )
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="InventoryMenu" type="Node2D"]
+
+[node name="InventoryBackground" type="ColorRect" parent="."]
+margin_right = 1600.0
+margin_bottom = 900.0
+color = Color( 1, 1, 1, 0 )
+
+[node name="InventoryList" type="Panel" parent="InventoryBackground"]
+margin_left = 24.0
+margin_top = 66.0
+margin_right = 711.0
+margin_bottom = 834.0
+theme = SubResource( 1 )
+custom_styles/panel = SubResource( 2 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="InventoryBackground/InventoryList"]
+margin_left = 232.0
+margin_top = 78.0
+margin_right = 677.0
+margin_bottom = 673.0
+
+[node name="GridContainer" type="GridContainer" parent="InventoryBackground/InventoryList/ScrollContainer"]
+margin_right = 426.0
+margin_bottom = 745.0
+custom_constants/vseparation = 30
+custom_constants/hseparation = 30
+columns = 3
+
+[node name="Item1" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_right = 122.0
+margin_bottom = 125.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item2" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 152.0
+margin_right = 274.0
+margin_bottom = 125.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item3" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 304.0
+margin_right = 426.0
+margin_bottom = 125.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item4" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_top = 155.0
+margin_right = 122.0
+margin_bottom = 280.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item5" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 152.0
+margin_top = 155.0
+margin_right = 274.0
+margin_bottom = 280.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item6" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 304.0
+margin_top = 155.0
+margin_right = 426.0
+margin_bottom = 280.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item7" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_top = 310.0
+margin_right = 122.0
+margin_bottom = 435.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item8" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 152.0
+margin_top = 310.0
+margin_right = 274.0
+margin_bottom = 435.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item9" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 304.0
+margin_top = 310.0
+margin_right = 426.0
+margin_bottom = 435.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item10" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_top = 465.0
+margin_right = 122.0
+margin_bottom = 590.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item11" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 152.0
+margin_top = 465.0
+margin_right = 274.0
+margin_bottom = 590.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item12" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 304.0
+margin_top = 465.0
+margin_right = 426.0
+margin_bottom = 590.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item13" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_top = 620.0
+margin_right = 122.0
+margin_bottom = 745.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item14" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 152.0
+margin_top = 620.0
+margin_right = 274.0
+margin_bottom = 745.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="Item15" type="Panel" parent="InventoryBackground/InventoryList/ScrollContainer/GridContainer"]
+margin_left = 304.0
+margin_top = 620.0
+margin_right = 426.0
+margin_bottom = 745.0
+rect_min_size = Vector2( 122, 125 )
+custom_styles/panel = SubResource( 22 )
+script = ExtResource( 7 )
+
+[node name="InventoryListSearchBar" type="Panel" parent="InventoryBackground/InventoryList"]
+margin_left = -3.0
+margin_top = 2.0
+margin_right = 209.0
+margin_bottom = 766.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="ItemSearchBar" type="LineEdit" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 30.0
+margin_right = 184.0
+margin_bottom = 77.0
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 4 )
+custom_styles/read_only = SubResource( 6 )
+custom_styles/focus = SubResource( 7 )
+custom_styles/normal = SubResource( 5 )
+placeholder_text = "Search"
+script = ExtResource( 9 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 109.0
+margin_right = 83.0
+margin_bottom = 130.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 8 )
+text = "Filter by:"
+
+[node name="ItemTypeDropDown" type="OptionButton" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 182.0
+margin_right = 184.0
+margin_bottom = 229.0
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/hover = SubResource( 15 )
+custom_styles/pressed = SubResource( 16 )
+custom_styles/focus = SubResource( 13 )
+custom_styles/disabled = SubResource( 14 )
+custom_styles/normal = SubResource( 10 )
+text = "Item Type"
+script = ExtResource( 2 )
+
+[node name="ItemColorDropDown" type="OptionButton" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 297.0
+margin_right = 184.0
+margin_bottom = 344.0
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/hover = SubResource( 15 )
+custom_styles/pressed = SubResource( 16 )
+custom_styles/focus = SubResource( 13 )
+custom_styles/disabled = SubResource( 14 )
+custom_styles/normal = SubResource( 10 )
+text = "Item Color"
+script = ExtResource( 3 )
+
+[node name="ItemSizeDropDown" type="OptionButton" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 410.0
+margin_right = 184.0
+margin_bottom = 457.0
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/hover = SubResource( 15 )
+custom_styles/pressed = SubResource( 16 )
+custom_styles/focus = SubResource( 13 )
+custom_styles/disabled = SubResource( 14 )
+custom_styles/normal = SubResource( 10 )
+text = "Item Size"
+script = ExtResource( 4 )
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 159.0
+margin_right = 99.0
+margin_bottom = 180.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 8 )
+text = "Item Type"
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 276.0
+margin_right = 99.0
+margin_bottom = 297.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 8 )
+text = "Item Color"
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 389.0
+margin_right = 99.0
+margin_bottom = 410.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 8 )
+text = "Item Size"
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 527.0
+margin_right = 92.0
+margin_bottom = 548.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 8 )
+text = "Order by:"
+
+[node name="ItemSortDropDown" type="OptionButton" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 549.0
+margin_right = 184.0
+margin_bottom = 596.0
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/hover = SubResource( 15 )
+custom_styles/pressed = SubResource( 16 )
+custom_styles/focus = SubResource( 13 )
+custom_styles/disabled = SubResource( 14 )
+custom_styles/normal = SubResource( 10 )
+text = "Stats"
+script = ExtResource( 5 )
+
+[node name="ResetButton" type="Button" parent="InventoryBackground/InventoryList/InventoryListSearchBar"]
+margin_left = 22.0
+margin_top = 677.0
+margin_right = 184.0
+margin_bottom = 724.0
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/hover = SubResource( 19 )
+custom_styles/pressed = SubResource( 21 )
+custom_styles/focus = SubResource( 20 )
+custom_styles/normal = SubResource( 18 )
+text = "Reset Search"
+script = ExtResource( 8 )
+
+[node name="ItemDescription" type="Panel" parent="InventoryBackground"]
+visible = false
+margin_left = 829.0
+margin_top = 189.0
+margin_right = 1575.0
+margin_bottom = 695.0
+theme = SubResource( 1 )
+custom_styles/panel = SubResource( 2 )
+
+[node name="PictureContainer" type="Panel" parent="InventoryBackground/ItemDescription"]
+margin_left = 99.0
+margin_top = 90.0
+margin_right = 344.0
+margin_bottom = 407.0
+custom_styles/panel = SubResource( 23 )
+
+[node name="ItemName" type="RichTextLabel" parent="InventoryBackground/ItemDescription"]
+margin_left = 368.0
+margin_top = 85.0
+margin_right = 735.0
+margin_bottom = 125.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 24 )
+bbcode_enabled = true
+bbcode_text = "[center]Item Name[/center]"
+text = "Item Name"
+
+[node name="ItemDesc" type="RichTextLabel" parent="InventoryBackground/ItemDescription"]
+margin_left = 437.0
+margin_top = 143.0
+margin_right = 686.0
+margin_bottom = 233.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 25 )
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+[node name="ItemStats" type="Node2D" parent="InventoryBackground/ItemDescription"]
+
+[node name="ItemStat" type="RichTextLabel" parent="InventoryBackground/ItemDescription/ItemStats"]
+margin_left = 500.0
+margin_top = 260.0
+margin_right = 587.0
+margin_bottom = 291.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 26 )
+text = "Item Stat"
+
+[node name="ItemStat2" type="RichTextLabel" parent="InventoryBackground/ItemDescription/ItemStats"]
+margin_left = 500.0
+margin_top = 287.0
+margin_right = 587.0
+margin_bottom = 318.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 26 )
+text = "Item Stat"
+
+[node name="ItemStat3" type="RichTextLabel" parent="InventoryBackground/ItemDescription/ItemStats"]
+margin_left = 500.0
+margin_top = 313.0
+margin_right = 587.0
+margin_bottom = 344.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 26 )
+text = "Item Stat"
+
+[node name="ItemActionDropDown" type="OptionButton" parent="InventoryBackground/ItemDescription"]
+margin_left = 484.0
+margin_top = 366.0
+margin_right = 610.0
+margin_bottom = 405.0
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 27 )
+custom_styles/hover = SubResource( 29 )
+custom_styles/pressed = SubResource( 30 )
+custom_styles/focus = SubResource( 31 )
+custom_styles/disabled = SubResource( 32 )
+custom_styles/normal = SubResource( 28 )
+text = "Actions"
+align = 1
+script = ExtResource( 6 )
+
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item1" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item1" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item2" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item2" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item3" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item3" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item4" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item4" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item5" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item5" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item6" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item6" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item7" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item7" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item8" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item8" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item9" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item9" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item10" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item10" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item11" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item11" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item12" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item12" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item13" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item13" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item14" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item14" method="_on_Item1_gui_input"]
+[connection signal="gui_input" from="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item15" to="InventoryBackground/InventoryList/ScrollContainer/GridContainer/Item15" method="_on_Item1_gui_input"]
+[connection signal="text_changed" from="InventoryBackground/InventoryList/InventoryListSearchBar/ItemSearchBar" to="InventoryBackground/InventoryList/InventoryListSearchBar/ItemSearchBar" method="_on_ItemSearchBar_text_changed"]
+[connection signal="pressed" from="InventoryBackground/InventoryList/InventoryListSearchBar/ResetButton" to="InventoryBackground/InventoryList/InventoryListSearchBar/ResetButton" method="_on_ResetButton_pressed"]
