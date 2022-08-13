@@ -3,18 +3,31 @@ extends Button
 # retrieve dependent nodes
 onready var registerBox = get_parent().get_parent().get_node("RegisterBackground")
 onready var createParentAccountBox = get_parent()
-onready var loginClick = get_parent().get_parent().get_node("RegisterBackground").get_node("LoginClickText")
-onready var emailInput = get_parent().get_parent().get_node("RegisterBackground").get_node("EmailInput")
-onready var nameInput = get_parent().get_parent().get_node("RegisterBackground").get_node("NameInput")
-onready var passwordInput = get_parent().get_parent().get_node("RegisterBackground").get_node("PasswordInput")
-onready var confirmInput = get_parent().get_parent().get_node("RegisterBackground").get_node("ConfirmInput")
+onready var loginClick = get_parent().get_parent().get_node("RegisterBackground").get_node(
+	"LoginClickText"
+)
+onready var emailInput = get_parent().get_parent().get_node("RegisterBackground").get_node(
+	"EmailInput"
+)
+onready var nameInput = get_parent().get_parent().get_node("RegisterBackground").get_node(
+	"NameInput"
+)
+onready var passwordInput = get_parent().get_parent().get_node("RegisterBackground").get_node(
+	"PasswordInput"
+)
+onready var confirmInput = get_parent().get_parent().get_node("RegisterBackground").get_node(
+	"ConfirmInput"
+)
 onready var dobInput = get_parent().get_parent().get_node("RegisterBackground").get_node("DoBInput")
-onready var tocCheckBox = get_parent().get_parent().get_node("RegisterBackground").get_node("ToCCheckBox")
+onready var tocCheckBox = get_parent().get_parent().get_node("RegisterBackground").get_node(
+	"ToCCheckBox"
+)
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	pass  # Replace with function body.
+
 
 # if return button is pressed, hide the create parrent account notification.
 # and redisplay the main register menu
@@ -28,7 +41,7 @@ func _pressed():
 	confirmInput.editable = true
 	dobInput.editable = true
 	tocCheckBox.disabled = false
-	
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass

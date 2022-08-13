@@ -4,6 +4,7 @@ extends RichTextLabel
 var dobRegex = RegEx.new()
 # Called when the node enters the scene tree for the first time.
 
+
 #set a regex to validate format of date of birth
 func _ready():
 	dobRegex.compile("\\d{2}\\/\\d{2}\\/\\d{4}$")
@@ -12,7 +13,7 @@ func _ready():
 #verify input from user
 func _process(delta):
 	var dobInput = get_parent().get_node("DoBInput")
-	if(dobInput.text == ""):
+	if dobInput.text == "":
 		pass
 	else:
 		# if input is valid, hide warning message
