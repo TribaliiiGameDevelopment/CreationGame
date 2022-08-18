@@ -14,6 +14,12 @@ Creation game focused around interactive story creation using assets in game wor
 **Enter hours weekly**
 Through the Specialist Portal
 
+**Use Company Emails for Company work**
+
+
+### `Everyone`
+1. [SyncSketch](https://syncsketch.com/)
+2. [Team Folder](https://drive.google.com/drive/folders/1E22UOlZRYXH13_kZ5hsR6zznvelWfVV8?usp=sharing)
 
 
 ### `Research and Design`
@@ -27,10 +33,13 @@ Through the Specialist Portal
 1. [Download Godot Engine 4.0](https://downloads.tuxfamily.org/godotengine/4.0/alpha1/)
 2. [Godot Documentation](https://docs.godotengine.org/en/latest/)
 3. [Mutombo Mascot Avatar/ with action animations](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
+4. [Godot Code Formatter](https://www.gdquest.com/tutorial/godot/gdscript/gdscript-formatter/)
 
 ### `Back end and DB`
-1. [Notes and Links](https://docs.google.com/document/d/1R-UKLMSs3p1KZQg_RnNJJLTZQrZuWjMaMcu23Fra9dg/edit?usp=sharing)
+1. [Notes and Links](https://drive.google.com/drive/folders/1sEy7-mp_mvEdSxJfbjTTBqGyQPeIHWf5?usp=sharing)
 
+
+![My Meetings](https://github.com/TribaliiiGameDevelopment/CreationGame/blob/332411e80d3af030df61c89f5550b48b9f72de4d/My%20Meetings%20Infographic.png)
 
 ### Contributors ✨
 
