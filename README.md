@@ -33,7 +33,7 @@ Through the Specialist Portal
 1. [Download Godot Engine 4.0](https://downloads.tuxfamily.org/godotengine/4.0/alpha1/)
 2. [Godot Documentation](https://docs.godotengine.org/en/latest/)
 3. [Mutombo Mascot Avatar/ with action animations](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
-4. [Godot Code Formatter](https://www.gdquest.com/tutorial/godot/gdscript/gdscript-formatter/)
+4. [Format all Code](https://www.gdquest.com/tutorial/godot/gdscript/gdscript-formatter/)
 
 ### `Back end and DB`
 1. [Notes and Links](https://drive.google.com/drive/folders/1sEy7-mp_mvEdSxJfbjTTBqGyQPeIHWf5?usp=sharing)
