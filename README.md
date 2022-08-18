@@ -18,8 +18,7 @@ Through the Specialist Portal
 
 
 ### `Everyone`
-1. [SyncSketch](https://syncsketch.com/)
-2. [Team Folder](https://drive.google.com/drive/folders/1E22UOlZRYXH13_kZ5hsR6zznvelWfVV8?usp=sharing)
+1. [Team Folder](https://drive.google.com/drive/folders/1E22UOlZRYXH13_kZ5hsR6zznvelWfVV8?usp=sharing)
 
 
 ### `Research and Design`
