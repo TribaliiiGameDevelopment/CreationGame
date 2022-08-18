@@ -20,6 +20,7 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
 ### `Everyone`
 1. [Team Folder](https://drive.google.com/drive/folders/1E22UOlZRYXH13_kZ5hsR6zznvelWfVV8?usp=sharing)
 2. [Send recordings](https://www.loom.com/?utm_term=loom_b&utm_campaign=US_GS_Brand_Phrase_Exact&utm_source=adwords&utm_medium=ppc&utm_content=&hsa_acc=4481576800&hsa_cam=15507659439&hsa_grp=134743398910&hsa_ad=567960631368&hsa_src=g&hsa_tgt=kwd-23006411&hsa_kw=loom&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x2Y3RIMytr8Fml4ZWaOTnMMSG6JggKhhceiSkQsxrTMiD7-E4HVNQoaAh2IEALw_wcB)
+3. Find Solutions: [Medium](https://github.com/Tribalnetwork/Portfolio-Network), [Stack Overflow](https://stackoverflow.com/)
 
 
 ### `Research and Design`
