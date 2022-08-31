@@ -2,13 +2,13 @@ extends Button
 
 #retrieving dependent nodes
 onready var profilePage = get_node(
-	"/root/main-settings-page/TempBackground/MainSettingPage/General-page-box/Profile-page-box"
+	"/root/main-settings-page/MainSettingPage/General-page-box/Profile-page-box"
 )
 onready var accountPage = get_node(
-	"/root/main-settings-page/TempBackground/MainSettingPage/General-page-box/Account-page-box"
+	"/root/main-settings-page/MainSettingPage/General-page-box/Account-page-box"
 )
 onready var tutorialPage = get_node(
-	"/root/main-settings-page/TempBackground/MainSettingPage/General-page-box/Tutorials-page-box"
+	"/root/main-settings-page/MainSettingPage/General-page-box/Tutorials-page-box"
 )
 
 

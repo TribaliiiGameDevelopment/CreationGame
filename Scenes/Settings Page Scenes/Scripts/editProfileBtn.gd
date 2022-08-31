@@ -1,8 +1,8 @@
 extends Button
 
 #retrieve dependent nodes
-onready var uploadOverlay = get_node("/root/main-settings-page/TempBackground/UploadPictureOverlay")
-onready var mainSettingsPage = get_node("/root/main-settings-page/TempBackground/MainSettingPage")
+onready var uploadOverlay = get_node("/root/main-settings-page/UploadPictureOverlay")
+onready var mainSettingsPage = get_node("/root/main-settings-page/MainSettingPage")
 
 
 # Called when the node enters the scene tree for the first time.

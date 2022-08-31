@@ -2,16 +2,16 @@ extends Node2D
 
 #set up access to dependent nodes
 onready var generalPage = get_node(
-	"/root/main-settings-page/TempBackground/MainSettingPage/General-page-box"
+	"/root/main-settings-page/MainSettingPage/General-page-box"
 )
 onready var controlPage = get_node(
-	"/root/main-settings-page/TempBackground/MainSettingPage/Controls-page-box"
+	"/root/main-settings-page/MainSettingPage/Controls-page-box"
 )
 onready var audioPage = get_node(
-	"/root/main-settings-page/TempBackground/MainSettingPage/Audio-page-box"
+	"/root/main-settings-page/MainSettingPage/Audio-page-box"
 )
 onready var videoPage = get_node(
-	"/root/main-settings-page/TempBackground/MainSettingPage/Video-page-box"
+	"/root/main-settings-page/MainSettingPage/Video-page-box"
 )
 
 

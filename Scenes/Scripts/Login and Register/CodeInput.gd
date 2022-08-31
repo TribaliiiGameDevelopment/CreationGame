@@ -1,7 +1,7 @@
 extends LineEdit
 
 #retrieve next scene after registering
-var charCreationScene = "res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn"
+var loginScene = "res://Scenes/Login Page Scenes/Login Scene.tscn"
 
 #retrieve dependent nodes
 onready var emailVerficationBox = get_parent().get_parent()
@@ -73,4 +73,4 @@ func _process(delta):
 		#change to character creation scene after successful registration
 		print("Registration Successful!")
 		MinorInfoVariables.reset()
-		get_tree().change_scene(charCreationScene)
+		get_tree().change_scene(loginScene)

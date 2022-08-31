@@ -8,5 +8,5 @@ extends Control
 
 # Called when the node enters the scene tree for the first time.
 func _on_QuitButton_pressed():
-	get_tree().change_scene("res://QuitNotification.tscn")
+	get_tree().change_scene("res://Scenes/MainMenuandQuit/QuitNotification.tscn")
 	queue_free()

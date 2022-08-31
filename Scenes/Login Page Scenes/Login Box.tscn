@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=31 format=2]
 
 [ext_resource path="res://Scenes/Scripts/Login and Register/RegisterBtn.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Register Page/RegisterBackground.png" type="Texture" id=2]
@@ -7,7 +7,11 @@
 [ext_resource path="res://Fonts/Roboto-Light.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://Fonts/Roboto-Medium.ttf" type="DynamicFontData" id=6]
 [ext_resource path="res://Fonts/Roboto-Regular.ttf" type="DynamicFontData" id=7]
-
+[ext_resource path="res://Styles/Button Style.tres" type="StyleBox" id=8]
+[ext_resource path="res://Styles/Unchecked Box.tres" type="Texture" id=9]
+[ext_resource path="res://Styles/Button Style Disabled.tres" type="StyleBox" id=10]
+[ext_resource path="res://Styles/Button Style Hover.tres" type="StyleBox" id=11]
+[ext_resource path="res://Styles/Button Style Pressed.tres" type="StyleBox" id=12]
 
 [sub_resource type="DynamicFont" id=17]
 size = 38
@@ -101,9 +105,6 @@ font_data = ExtResource( 6 )
 [sub_resource type="DynamicFont" id=9]
 size = 24
 font_data = ExtResource( 4 )
-
-[sub_resource type="StyleBoxFlat" id=19]
-bg_color = Color( 0.176471, 0.2, 0.227451, 1 )
 
 [sub_resource type="DynamicFont" id=10]
 font_data = ExtResource( 4 )
@@ -210,13 +211,13 @@ margin_left = -180.846
 margin_top = 24.068
 margin_right = -71.846
 margin_bottom = 48.068
-focus_mode = 0
 custom_colors/font_color = Color( 0.568627, 0.568627, 0.568627, 1 )
 custom_colors/font_color_hover = Color( 0.407843, 0.407843, 0.407843, 1 )
 custom_colors/font_color_pressed = Color( 0.34902, 0.345098, 0.345098, 1 )
 custom_fonts/font = SubResource( 6 )
-enabled_focus_mode = 0
+custom_icons/unchecked = ExtResource( 9 )
 text = "Remember Me"
+clip_text = true
 
 [node name="Register Label" type="RichTextLabel" parent="LoginBox"]
 margin_left = -124.636
@@ -247,8 +248,17 @@ margin_left = -179.002
 margin_top = 72.5023
 margin_right = 180.998
 margin_bottom = 122.502
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 9 )
-custom_styles/normal = SubResource( 19 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/pressed = ExtResource( 12 )
+custom_styles/focus = ExtResource( 12 )
+custom_styles/disabled = ExtResource( 10 )
+custom_styles/normal = ExtResource( 8 )
 text = "Login"
 script = ExtResource( 3 )
 

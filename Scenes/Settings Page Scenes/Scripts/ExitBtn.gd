@@ -1,7 +1,7 @@
 extends Button
 
 #retrieve main settings page
-onready var mainSettingsPage = get_node("/root/main-settings-page/TempBackground/MainSettingPage")
+onready var mainSettingsPage = get_node("/root/main-settings-page/MainSettingPage")
 
 
 # Called when the node enters the scene tree for the first time.

@@ -1,8 +1,17 @@
 extends Button
 
+onready var userField = get_parent().get_node("Username Field")
+onready var passField = get_parent().get_node("Password Field")
+
 var username
 var password
 
+
+func _process(delta):
+	if(userField.text != "" && passField.text != ""):
+		disabled = false
+	else:
+		disabled = true
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -29,21 +38,15 @@ func _on_button_pressed():
 			if MinorInfoVariables.isGuardianAccount == true:
 				if AccountParser.account_data[username].get("Guardian"):
 					print("Minors cannot be guardians")
-					get_tree().change_scene(
-						"res://Scenes/Register Page Scenes/ParentRegisterPage.tscn"
-					)
+					get_tree().change_scene("res://Scenes/Register Page Scenes/ParentRegisterPage.tscn")
 				else:
 					MinorInfoVariables.setGuardian(
 						username, AccountParser.account_data[username].Email
 					)
 					MinorInfoVariables.reset()
-					get_tree().change_scene(
-						"res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn"
-					)
+					get_tree().change_scene("res://Scenes/MainMenuandQuit/MainMenu.tscn")
 			else:
-				get_tree().change_scene(
-					"res://Scenes/Placeholder Scenes/Placeholder Game Scene.tscn"
-				)
+				get_tree().change_scene("res://Scenes/MainMenuandQuit/MainMenu.tscn")
 	else:
 		#If a username not present in Accounts.json is entered, the AccountNotFound node will become visible notifying the user that the account was not found and "Not Found" will be printed tot he debug log -Jihad
 		get_node("../AccountNotFound").popup_centered()
