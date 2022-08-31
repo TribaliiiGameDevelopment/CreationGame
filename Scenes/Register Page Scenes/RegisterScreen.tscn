@@ -15,10 +15,7 @@
 [ext_resource path="res://Styles/Unchecked Box.tres" type="Texture" id=13]
 [ext_resource path="res://Styles/Button Style Pressed.tres" type="StyleBox" id=14]
 [ext_resource path="res://Styles/Button Style Hover.tres" type="StyleBox" id=15]
-
-[sub_resource type="StreamTexture" id=1]
-flags = 4
-load_path = "res://.import/RegisterBackground.png-4d751b87a48e357a394e9edb838d79b4.stex"
+[ext_resource path="res://Assets/Register Page/RegisterBackground.png" type="Texture" id=16]
 
 [sub_resource type="DynamicFont" id=2]
 size = 31
@@ -154,34 +151,32 @@ font_data = ExtResource( 3 )
 [node name="RegisterScreen" type="Node2D"]
 
 [node name="RegisterBackground" type="Sprite" parent="."]
-position = Vector2( 240.688, 408.998 )
-rotation = -9.79751e-05
-scale = Vector2( 1.08642, 1.00247 )
-texture = SubResource( 1 )
+position = Vector2( 223, 409 )
+texture = ExtResource( 16 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -178.839
-margin_top = -343.114
-margin_right = 120.161
-margin_bottom = -303.114
+margin_left = -176.64
+margin_top = -343.944
+margin_right = 122.36
+margin_bottom = -303.944
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 2 )
 text = "Create new account"
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -179.0
-margin_top = -283.0
-margin_right = 19.0
-margin_bottom = -261.0
+margin_left = -176.809
+margin_top = -283.682
+margin_right = 21.191
+margin_bottom = -261.682
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 3 )
 text = "Already have an Account ?"
 
 [node name="LoginClickText" type="Button" parent="RegisterBackground"]
-margin_left = 13.6518
-margin_top = -284.241
-margin_right = 61.6518
-margin_bottom = -262.241
+margin_left = 32.4917
+margin_top = -284.947
+margin_right = 80.4917
+margin_bottom = -262.947
 custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
 custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -197,10 +192,10 @@ text = "Log in"
 script = ExtResource( 5 )
 
 [node name="EmailInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -180.846
-margin_top = -214.431
-margin_right = 179.154
-margin_bottom = -164.431
+margin_left = -178.808
+margin_top = -214.943
+margin_right = 181.192
+margin_bottom = -164.943
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -211,10 +206,10 @@ placeholder_text = "Email"
 placeholder_alpha = 0.3
 
 [node name="NameInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -179.857
-margin_top = -130.638
-margin_right = 180.143
-margin_bottom = -80.6377
+margin_left = -177.725
+margin_top = -130.944
+margin_right = 182.275
+margin_bottom = -80.9432
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -225,10 +220,10 @@ placeholder_text = "Display Name"
 placeholder_alpha = 0.3
 
 [node name="PasswordInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -180.002
-margin_top = -46.0493
-margin_right = 179.998
-margin_bottom = 3.95074
+margin_left = -177.874
+margin_top = -46.1459
+margin_right = 182.126
+margin_bottom = 3.85413
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -240,10 +235,10 @@ placeholder_text = "Create Password"
 placeholder_alpha = 0.3
 
 [node name="ConfirmInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -179.874
-margin_top = 39.941
-margin_right = 180.126
-margin_bottom = 89.941
+margin_left = -177.727
+margin_top = 40.0568
+margin_right = 182.273
+margin_bottom = 90.0568
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -255,10 +250,10 @@ placeholder_text = "Confirm Password"
 placeholder_alpha = 0.3
 
 [node name="DoBInput" type="LineEdit" parent="RegisterBackground"]
-margin_left = -179.882
-margin_top = 125.729
-margin_right = 180.118
-margin_bottom = 175.729
+margin_left = -177.727
+margin_top = 126.057
+margin_right = 182.273
+margin_bottom = 176.057
 theme = SubResource( 5 )
 custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -269,10 +264,10 @@ placeholder_text = "Date of Birth (MM/DD/YYYY)"
 placeholder_alpha = 0.3
 
 [node name="ToCCheckBox" type="CheckBox" parent="RegisterBackground"]
-margin_left = -185.003
-margin_top = 204.911
-margin_right = -161.003
-margin_bottom = 228.911
+margin_left = -183.283
+margin_top = 205.435
+margin_right = -159.283
+margin_bottom = 229.435
 custom_fonts/font = SubResource( 8 )
 custom_icons/unchecked = ExtResource( 13 )
 custom_styles/hover = SubResource( 21 )
@@ -280,10 +275,10 @@ custom_styles/focus = SubResource( 22 )
 clip_text = true
 
 [node name="CreateAccountBtn" type="Button" parent="RegisterBackground"]
-margin_left = -179.005
-margin_top = 270.373
-margin_right = 180.995
-margin_bottom = 320.373
+margin_left = -176.76
+margin_top = 271.058
+margin_right = 183.24
+margin_bottom = 321.058
 custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 9 )
 custom_styles/hover = ExtResource( 15 )
@@ -296,65 +291,65 @@ text = "Create account"
 script = ExtResource( 6 )
 
 [node name="RichTextLabel3" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -160.004
-margin_top = 204.881
-margin_right = 174.996
-margin_bottom = 238.881
+margin_left = -156.123
+margin_top = 205.402
+margin_right = 178.877
+margin_bottom = 239.402
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 12 )
 text = "I have read and accept the Terms and Conditions and Privacy Policy."
 
 [node name="RichTextLabel4" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -179.0
-margin_top = -236.0
-margin_right = -134.0
-margin_bottom = -214.0
+margin_left = -176.804
+margin_top = -236.566
+margin_right = -131.804
+margin_bottom = -214.566
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 3 )
 text = "Email"
 
 [node name="RichTextLabel5" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -179.001
-margin_top = -152.025
-margin_right = -74.0009
-margin_bottom = -130.025
+margin_left = -176.797
+margin_top = -152.383
+margin_right = -71.7971
+margin_bottom = -130.383
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 3 )
 text = "Display Name"
 
 [node name="RichTextLabel6" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -179.002
-margin_top = -68.0493
-margin_right = -52.0018
-margin_bottom = -46.0493
+margin_left = -176.79
+margin_top = -68.2003
+margin_right = -49.7898
+margin_bottom = -46.2003
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 3 )
 text = "Create Password"
 
 [node name="RichTextLabel7" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -179.003
-margin_top = 17.9261
-margin_right = -46.0028
-margin_bottom = 39.9261
+margin_left = -176.783
+margin_top = 17.9874
+margin_right = -43.7825
+margin_bottom = 39.9874
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 3 )
 text = "Confirm Password"
 
 [node name="RichTextLabel8" type="RichTextLabel" parent="RegisterBackground"]
-margin_left = -179.01
-margin_top = 103.714
-margin_right = -46.0105
-margin_bottom = 125.714
+margin_left = -176.782
+margin_top = 103.987
+margin_right = -43.7823
+margin_bottom = 125.987
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 3 )
 text = "Date of Birth"
 
 [node name="PasswordMatchLabel" type="RichTextLabel" parent="RegisterBackground"]
 visible = false
-margin_left = -179.0
-margin_top = 92.0
-margin_right = -51.0
-margin_bottom = 110.0
+margin_left = -176.772
+margin_top = 92.2443
+margin_right = -48.7722
+margin_bottom = 110.244
 custom_colors/default_color = Color( 1, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 29 )
 text = "Password must match"
@@ -362,10 +357,10 @@ script = ExtResource( 9 )
 
 [node name="EmailValidateLabel" type="RichTextLabel" parent="RegisterBackground"]
 visible = false
-margin_left = -179.0
-margin_top = -164.0
-margin_right = -104.0
-margin_bottom = -146.0
+margin_left = -176.797
+margin_top = -164.388
+margin_right = -101.797
+margin_bottom = -146.388
 custom_colors/default_color = Color( 1, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 29 )
 text = "Invalid Email"
@@ -373,18 +368,20 @@ script = ExtResource( 4 )
 
 [node name="DoBValidateLabel" type="RichTextLabel" parent="RegisterBackground"]
 visible = false
-margin_left = -179.008
-margin_top = 175.793
-margin_right = -51.0076
-margin_bottom = 193.793
+margin_left = -176.773
+margin_top = 176.244
+margin_right = -48.7722
+margin_bottom = 194.244
 custom_colors/default_color = Color( 1, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 29 )
 text = "Invalid Date of Birth"
 script = ExtResource( 10 )
 
 [node name="UserExistPopUp" type="AcceptDialog" parent="RegisterBackground"]
-margin_right = 48.0
-margin_bottom = 40.0
+margin_left = 17.688
+margin_top = -0.00201416
+margin_right = 100.688
+margin_bottom = 57.998
 
 [node name="EmailVerfication" parent="." instance=ExtResource( 7 )]
 visible = false

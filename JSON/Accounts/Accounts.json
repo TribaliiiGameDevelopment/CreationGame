@@ -1,3 +1,11 @@
 {
-	
+  "Kid3": {
+    "Email": "parent2@gmail.com",
+    "Guardian": "Parent2",
+    "Password": "Test1234"
+  },
+  "Parent2": {
+    "Email": "parent2@gmail.com",
+    "Password": "Test1234"
+  }
 }
