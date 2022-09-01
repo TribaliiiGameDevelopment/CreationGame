@@ -10,3 +10,7 @@ extends Control
 func _on_QuitButton_pressed():
 	get_tree().change_scene("res://Scenes/MainMenuandQuit/QuitNotification.tscn")
 	queue_free()
+
+
+func _on_MarketplaceButton_button_down():
+	pass # Replace with function body.

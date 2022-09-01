@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Scenes/MainMenuandQuit/MainMenu.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Scripts/Main Menu/RoomButton.gd" type="Script" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://Fonts/Roboto-Regular.ttf" type="DynamicFontData" id=10]
 [ext_resource path="res://Scenes/Scripts/Main Menu/SignOutButton.gd" type="Script" id=11]
 [ext_resource path="res://Scenes/Characters Page Scenes/Characters Scene.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Scenes/Marketplace/LinkButton.gd" type="Script" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 62
@@ -67,7 +68,7 @@ margin_left = 22.0
 margin_top = 163.0
 margin_right = 306.0
 margin_bottom = 237.0
-custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
 custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
@@ -120,9 +121,26 @@ margin_right = 175.0
 margin_bottom = 242.0
 text = "Profile"
 
-[node name="SettingsButton" type="Button" parent="."]
+[node name="MarketplaceButton" type="Button" parent="."]
 margin_left = 22.0
 margin_top = 499.0
+margin_right = 306.0
+margin_bottom = 573.0
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 6 )
+custom_styles/hover = ExtResource( 9 )
+custom_styles/pressed = ExtResource( 8 )
+custom_styles/focus = ExtResource( 8 )
+custom_styles/normal = ExtResource( 7 )
+text = "Marketplace"
+script = ExtResource( 13 )
+
+[node name="SettingsButton" type="Button" parent="."]
+margin_left = 22.0
+margin_top = 611.0
 margin_right = 306.0
 margin_bottom = 573.0
 custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
@@ -188,4 +206,5 @@ custom_styles/normal = ExtResource( 8 )
 text = "Sign out"
 script = ExtResource( 11 )
 
+[connection signal="button_down" from="MarketplaceButton" to="MarketplaceButton" method="_on_MarketplaceButton_button_down"]
 [connection signal="pressed" from="QuitButton" to="." method="_on_QuitButton_pressed"]
