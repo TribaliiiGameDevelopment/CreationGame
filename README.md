@@ -1,5 +1,5 @@
 <div align='center'>
-  <a href='Link to view' target='https://gotm.io/tribaliii/creationgame'>
+  <a href='https://gotm.io/tribaliii/creationgame' target='https://gotm.io/tribaliii/creationgame'>
   <img src='https://avatars.githubusercontent.com/u/63391280?v=4' alt='Tribal Network' width='150px' />
   <h3>TRIBAL NETWORK</h3>
   </a>
@@ -26,14 +26,13 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
 ### `UX/ UI`
 1. [Docs](https://drive.google.com/drive/folders/1tYQoi6_NQvnKW7vSjiKrByHtQhpVTcuY?usp=sharing)
 2. [Sprint Tasks 1-6](https://drive.google.com/drive/folders/10I2b-pMYGlP3bN_0dKU7BXKt7knwrp_4?usp=sharing)
-3. [Guidelines](https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true)
+3. [Practices](https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true)
 
 
 ### `Frontend`
 1. [Docs](https://drive.google.com/drive/folders/1tYQoi6_NQvnKW7vSjiKrByHtQhpVTcuY?usp=sharing)
-2. [Godot Documentation](https://docs.godotengine.org/en/latest/)
-3. [Default 'Mutombo' Avatar/ w action animations](https://drive.google.com/drive/folders/1IPRQaSQmQHD7NUJNHGRkt__BaUS7Cyc3?usp=sharing)
-4. [Format all Code](https://www.gdquest.com/tutorial/godot/gdscript/gdscript-formatter/)
+2. [Godot Docs](https://docs.godotengine.org/en/latest/)
+3. [Format all Code](https://www.gdquest.com/tutorial/godot/gdscript/gdscript-formatter/)
 
 
 ### `Backend`
@@ -43,9 +42,9 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
 
 ![My Meetings](https://github.com/TribaliiiGameDevelopment/CreationGame/blob/332411e80d3af030df61c89f5550b48b9f72de4d/My%20Meetings%20Infographic.png)
 
-![My Meetings](https://github.com/TribaliiiGameDevelopment/CreationGame/blob/332411e80d3af030df61c89f5550b48b9f72de4d/My%20Meetings%20Infographic.png)
+![My Meetings](https://github.com/TribaliiiGameDevelopment/CreationGame/blob/dfbcc40383da13f5235be6bdb9337d27b069f492/My%20Team%20Infographic.png)
 
-![My Meetings](https://github.com/TribaliiiGameDevelopment/CreationGame/blob/332411e80d3af030df61c89f5550b48b9f72de4d/My%20Meetings%20Infographic.png)
+![My Meetings](https://github.com/TribaliiiGameDevelopment/CreationGame/blob/dfbcc40383da13f5235be6bdb9337d27b069f492/My%20Project%20Roadmap.png)
 
 
 ### Contributors ✨
@@ -55,7 +54,7 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
     <td>
       <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Maryam Yusuf</p>
+        <p align='center'>Christian Darlington</p>
       </a>
     </td>
     <td>
@@ -118,7 +117,7 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
     <td>
      <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>Mavis konadu</p>
+        <p align='center'>ikechukwu onochie</p>
       </a>
     </td>
     <td>
@@ -126,4 +125,4 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
 
 
 
-**NOTE** This README is still a work in progress. If there is anything that's missing, doesn't make sense, or doesn't work, let us know! Or better yet, make a pull request with updated information. We want to make this README as robust as possible.
+
