@@ -118,7 +118,7 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
     <td>
      <a href="Github link" target="_blank">
         <img src='Github Avatar' alt='' width='100px'>
-        <p align='center'>ikechukwu onochie</p>
+        <p align='center'>Ikechukwu onochie</p>
       </a>
     </td>
     <td>
