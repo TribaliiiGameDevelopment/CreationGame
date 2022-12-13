@@ -24,20 +24,20 @@ Through the [Specialist Portal](https://sites.google.com/view/specialistportal/s
 
 
 ### `UX/ UI`
-1. [Docs](https://drive.google.com/drive/folders/1SjmA7z2_8dvLFe7P_Vb7TgECIpsIZ1Gw?usp=share_link)
+1. [Docs](https://drive.google.com/drive/folders/1EDNg1_aDAW0G42HQuv1S-w034T2GebqB?usp=share_link)
 2. [Sprint Tasks 1-6](https://drive.google.com/drive/folders/10I2b-pMYGlP3bN_0dKU7BXKt7knwrp_4?usp=sharing)
 3. [Practices](https://docs.google.com/document/d/1nYnTdHjuO2bejNhLG1hWU6wblm9Twq3h/edit?usp=sharing&ouid=115223206571185626008&rtpof=true&sd=true)
 
 
 ### `Frontend`
-1. [Docs](https://drive.google.com/drive/folders/1hcC5wbYyYrnkmzQPrzmtRaqpN99xo7uN?usp=share_link)
+1. [Docs](https://drive.google.com/drive/folders/1onZisiNbujBrmY3o5UxrCaIdsGGjQovY?usp=share_link)
 2. [Godot Docs](https://docs.godotengine.org/en/latest/)
 3. [Format all Code](https://www.gdquest.com/tutorial/godot/gdscript/gdscript-formatter/)
 
 
 ### `Backend`
 1. [Set up](https://drive.google.com/drive/folders/1sEy7-mp_mvEdSxJfbjTTBqGyQPeIHWf5?usp=sharing)
-2. [Docs](https://drive.google.com/drive/folders/1vVJH4lSYI0T5B1Bnfu-OGU6Wbx1btSul?usp=share_link)
+2. [Docs](https://drive.google.com/drive/folders/11yKyM9hqfOKvtiZS1KgXAfowPlY8Nc7P?usp=share_link)
 
 
 ![My Meetings](https://github.com/TribaliiiGameDevelopment/CreationGame/blob/332411e80d3af030df61c89f5550b48b9f72de4d/My%20Meetings%20Infographic.png)
