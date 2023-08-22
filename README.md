@@ -4,18 +4,13 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/TribaliiiGameDevelopment/donate-link">
-<img src="https://img.shields.io/badge/Donate-Github-blue.svg" />
-</a>
-<a href="https://github.com/TribaliiiGameDevelopment/sponsor-link">
-<img src="https://img.shields.io/badge/Sponsor-Dev%20Contributors-orange.svg" />
-</a>
-<a href="https://download-link-for-windows">
-<img src="https://img.shields.io/badge/Download-Windows-brightgreen.svg" />
-</a>
 <a href="https://gotm.io/tribaliii/creationgame">
 <img src="https://img.shields.io/badge/Demo-Play%20Now-yellow.svg" />
+<a href="https://github.com/TribaliiiGameDevelopment/CreationGame/releases/tag/demo">
+<img src="https://img.shields.io/badge/Download-Windows-brightgreen.svg" />
 </a>
+</a>
+<img src="https://img.shields.io/badge/Sponsor-coming_soon-brightgreen" />
 </p>
 
 ## Mission Statement
@@ -28,9 +23,9 @@ Play our demo and learn how to get started:
 
 - [Play the Demo](https://gotm.io/tribaliii/creationgame)
 - Follow these steps to start the demo:
-  1. Step 1: ...
-  2. Step 2: ...
-  3. Step 3: ...
+  1. Step 1: Download the demo from [here](https://github.com/TribaliiiGameDevelopment/CreationGame/releases/tag/demo)
+  2. Step 2: Unzip it with your favorite extraction software
+  3. Step 3: Play and have fun!
 
 ## Contributing
 
