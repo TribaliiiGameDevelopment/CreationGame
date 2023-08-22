@@ -1,17 +1,13 @@
-# The Gamebuilder Metaverse
+<p align="center">
+<img src="./Assets//logo.png" width="200" />
+<h1 align="center">The Gamebuilder Metaverse</h1>
+</p>
 
-## Mission Statement
-
-The Gamebuilder Metaverse aims to engage web 2.0 networks of creators with scalable, shared value. Our mission is to trade assets and contribute sandbox skills to create and maintain game worlds as content.
-
-<p>
-<a href="https://github.com/TribaliiiGameDevelopment/CreationGame/issues">
-<img src="https://img.shields.io/github/issues/TribaliiiGameDevelopment/CreationGame" />
-</a>
-<a href="https://github.com/your-organization/donate-link">
+<p align="center">
+<a href="https://github.com/TribaliiiGameDevelopment/donate-link">
 <img src="https://img.shields.io/badge/Donate-Github-blue.svg" />
 </a>
-<a href="https://github.com/your-organization/sponsor-link">
+<a href="https://github.com/TribaliiiGameDevelopment/sponsor-link">
 <img src="https://img.shields.io/badge/Sponsor-Dev%20Contributors-orange.svg" />
 </a>
 <a href="https://download-link-for-windows">
@@ -21,6 +17,10 @@ The Gamebuilder Metaverse aims to engage web 2.0 networks of creators with scala
 <img src="https://img.shields.io/badge/Demo-Play%20Now-yellow.svg" />
 </a>
 </p>
+
+## Mission Statement
+
+The Gamebuilder Metaverse aims to engage web 2.0 networks of creators with scalable, shared value. Our mission is to trade assets and contribute sandbox skills to create and maintain game worlds as content.
 
 ## Demo and Startup Instructions
 
@@ -32,15 +32,12 @@ Play our demo and learn how to get started:
   2. Step 2: ...
   3. Step 3: ...
 
-## Embedded Demo
+## Contributing
 
-You can also experience the demo right here:
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/rahuldkjain/github-profile-readme-generator/compare).
 
-<!-- Embed the demo here using appropriate HTML/Markdown code -->
-
-## Getting Involved
-
-Contributions are welcome! If you're interested in contributing, we have some easy local tests and starter issues to get you started:
+Please read [CONTRIBUTING](CONTRIBUTING.md) for details of the process for submitting pull requests to us.
+Contributions are welcome! If you're interested in contributing, we have some easy starter issues to get you started.
 
 - [Select character](https://github.com/TribaliiiGameDevelopment/CreationGame/issues/49).
 - [Select World](https://github.com/TribaliiiGameDevelopment/CreationGame/issues/48)
@@ -48,10 +45,6 @@ Contributions are welcome! If you're interested in contributing, we have some ea
 - [Set animations model for frontend](https://github.com/TribaliiiGameDevelopment/CreationGame/issues/45)
 
 you can find more issues [here](https://github.com/TribaliiiGameDevelopment/CreationGame/issues) to contribute.
-
-## License
-
-This project is licensed under the [MIT](LICENSE).
 
 ## Contributors ✨
 
@@ -128,3 +121,7 @@ This project is licensed under the [MIT](LICENSE).
     </td>
     <td>
 </table>
+
+## License
+
+This project is licensed under the [MIT](LICENSE).
