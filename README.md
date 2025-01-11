@@ -22,6 +22,7 @@ The Gamebuilder Metaverse aims to engage web 2.0 networks of creators with scala
 Play our demo and learn how to get started:
 
 - [Play the Demo](https://gotm.io/tribaliii/creationgame)
+- Learn GDScript From Zero if necessary [here](https://github.com/GDQuest/learn-gdscript/?tab=readme-ov-file#learn-gdscript-from-zero)
 - Follow these steps to start the demo:
   1. Step 1: Download the demo from [here](https://github.com/TribaliiiGameDevelopment/CreationGame/releases/tag/demo)
   2. Step 2: Unzip it with your favorite extraction software
